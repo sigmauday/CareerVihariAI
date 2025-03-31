@@ -1,0 +1,1961 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello", "hi", "hey", "good morning", "good afternoon", "good evening",
+                "hi there", "how are you", "is anyone there", "hola", "good day", "wassup",
+                "how’s it going", "how’re you today", "hope you’re well", "how goes it",
+                "great to speak to you", "bonjour", "yo", "what’s up", "hey there", "namaste",
+                "hi buddy", "hello ji", "what’s cooking", "hey yaar", "helo", "hii", "hiii",
+                "good to see you", "what’s good", "howdy", "greetings", "hi friend", "hello mate",
+                "what’s happening", "hi there buddy", "hey hey", "good to chat", "hi hi",
+                "how you doing", "anyone around", "heyy", "hie", "sup", "what’s new",
+                "morning how are you", "evening how’s it going", "hey there how’s it going",
+                "hola amigo", "what’s up buddy", "hi yaar", "heyy there", "good mornin",
+                "hi there friend", "what’s up yaar", "how you holdin up", "hey buddy",
+                "good afternoon mate", "hi how’s it going", "what’s poppin", "hello there",
+                "hiya", "howdy do", "what’s good buddy", "hi mate", "hey friend",
+                "good to talk", "how’s my buddy", "what’s up mate", "hi there mate",
+                "how you doing today", "hey there friend", "what’s new with you",
+                "good evening buddy", "hi how you doing", "what’s cooking buddy",
+                "hello friend", "hey mate", "how’s it hangin", "hi there yaar"
+            ],
+            "responses": [
+                "Heyy! How’s my favorite career buddy doing today?",
+                "Hi yaar! Let’s plan your future together, okay?",
+                "Hello hello! What’s on your mind today?",
+                "Good morning! Ready to chase your career dreams with me?",
+                "Hey, I’m super pumped to help you out today! Let’s get started!",
+                "Yo! What’s up? Ready to talk careers?",
+                "Namaste ji! Let’s make your career path awesome, shall we?",
+                "Hey there! What’s cooking in your career world?",
+                "Hi buddy! Excited to chat about your future?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "bye", "goodbye", "see you later", "take care",
+                "nice chatting to you, bye", "till next time", "adios amigo", "speak soon",
+                "catch you later", "ttyl", "gotta go", "later", "stay awesome", "peace out",
+                "see ya", "ta ta", "chalo then", "bye ji", "talk later", "cya", "im out",
+                "good bye", "see u soon", "farewell", "until next time", "bye bye", "laters",
+                "see you soon", "take it easy", "i’m off", "catch ya later", "catch you soon",
+                "be safe", "bbye", "talk to you later", "goodby", "seeya", "had a great chat bye",
+                "i gotta run", "see you around", "bye for now", "chalo bye", "see u later",
+                "peace out yaar", "laterz", "im leaving", "goodbye mate", "see you next time",
+                "take care buddy", "bye yaar", "c u soon", "i’m outta here", "adios friend",
+                "until we meet again", "see you tomorrow", "bye bye friend", "later buddy",
+                "take care mate", "cya later", "i’m heading out", "goodbye for now",
+                "see ya soon", "chalo later", "bye bye yaar", "talk soon buddy",
+                "i gotta bounce", "see you around mate", "farewell friend", "laters yaar"
+            ],
+            "responses": [
+                "Bye bye! Come back soon if you need more career tips!",
+                "Take care, yaar! I’ll be here if you need me!",
+                "See you later! All the best with your plans!",
+                "Goodbye! Let me know if you need help later, okay?",
+                "Have a nice day! Come back anytime!",
+                "Catch you later! Stay awesome, okay?",
+                "Peace out! Don’t forget to chase those dreams!",
+                "Chalo then! Hit me up anytime you’re stuck!",
+                "Talk later, yaar! Keep rocking!"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thank you", "thanks", "appreciate it", "thanks a lot",
+                "that’s helpful", "awesome, thanks", "thanks for helping me", "many thanks",
+                "much appreciated", "much obliged", "fantastic", "you’re the best", "thanks a ton",
+                "shukriya", "dhanyawad", "great job", "cheers", "big thanks", "thnx", "ty",
+                "thank u", "gracias", "thanks so much", "really appreciate it", "grateful",
+                "kudos", "thx", "thank ya", "thanx", "gracis", "thanks for the help",
+                "you did a great job", "thanks heaps", "super helpful", "thanks a bunch",
+                "appreciate your help", "thnks", "thankyou", "big thx", "shukria", "dhanyavaad",
+                "thanks for the support", "really helpful", "thanks mate", "grateful for your help",
+                "you rock thanks", "thnx a lot", "ty so much", "appreciating it", "good work",
+                "thanks for the advice", "you’re awesome thanks", "thanks for your time",
+                "really grateful", "thanks for assisting", "thx so much", "thank you heaps",
+                "appreciate the support", "thanks for guiding me", "you’re great thanks",
+                "thanks for everything", "gracias amigo", "thanks a million", "tyvm",
+                "thank you so much", "really appreciate your help", "thanks for the info"
+            ],
+            "responses": [
+                "Arey, no problem! Happy to help you out!",
+                "Thanks bolne ki zarurat nahi, I’m here for you!",
+                "Anytime, yaar! Glad I could help!",
+                "Welcome welcome! Let me know if you need more help!",
+                "My pleasure, yaar!",
+                "No worries! What else can I help with?",
+                "Glad I could assist! Got more questions?",
+                "Shukriya to you for asking! What’s next?",
+                "Cheers, yaar! Always here to support!"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "general_query",
+            "patterns": [
+                "what’s the weather",
+                "tell me a joke",
+                "who are you",
+                "how old are you",
+                "what’s your favorite color",
+                "do you like music",
+                "can you sing",
+                "are you human",
+                "what’s the time",
+                "how’s the day",
+                "what’s new",
+                "what can you do",
+                "tell me something random",
+                "what’s your name",
+                "how’s the weather today",
+                "sing a song",
+                "are you a robot",
+                "what’s your age",
+                "do you like to dance",
+                "what’s the date",
+                "tell me something funny",
+                "who created you",
+                "what’s your hobby",
+                "can you tell a story",
+                "what’s up with you",
+                "are you real",
+                "what’s your purpose",
+                "how do you work",
+                "what’s the news",
+                "what’s today’s date",
+                "how’s the weather like",
+                "tell me a fun fact",
+                "do you have friends",
+                "what’s your favorite food",
+                "can you dance",
+                "are you alive",
+                "what’s your favorite movie",
+                "do you like to read",
+                "what’s the time now",
+                "how’s it going for you",
+                "what’s something interesting",
+                "who made you",
+                "what’s your goal",
+                "are you a bot",
+                "what do you do for fun",
+                "tell me a story",
+                "what’s the latest news",
+                "how do you function",
+                "what’s your role",
+                "what is the time now",
+                "latest news updates",
+                "how’s the weather in [location]",
+                "tell me a random fact",
+                "what’s trending today",
+                "who invented you",
+                "what’s your favorite book",
+                "how to check the time",
+                "current news headlines",
+                "what’s the best joke",
+                "are you an AI assistant",
+                "what’s the date today",
+                "how do I know the weather",
+                "tell me about yourself",
+                "what’s your favorite song",
+                "how to stay updated with news",
+                "what’s the funniest thing you know",
+                "are you a real person",
+                "what’s the purpose of AI",
+                "how does AI work",
+                "what’s the latest time",
+                "tell me a good story",
+                "what’s your favorite hobby",
+                "how to find today’s date",
+                "what’s the weather forecast",
+                "who are your creators",
+                "what’s a cool fact",
+                "how to get the latest news",
+                "what’s your role here",
+                "long tail keyword example",
+                "best way to check weather",
+                "funniest jokes online",
+                "who built this AI",
+                "how to know the time"
+            ],
+            "responses": [
+                "Hey there! I’m CareerVihari AI, designed to assist with career guidance. Ask me about education or job options instead! For more info, visit [CareerVihari](https://www.careervihari.com).",
+                "Hello! I’m here to help with career-related questions. Want to discuss your studies or future job? Check out [CareerVihari](https://www.careervihari.com) for details.",
+                "Hi! I’m your career buddy, CareerVihari AI. Let’s chat about education or jobs—what’s on your mind? More resources at [CareerVihari](https://www.careervihari.com).",
+                "Oops, that’s not my area! I specialize in career guidance—ask me about studies or jobs. Visit [CareerVihari](https://www.careervihari.com) for more help.",
+                "Sorry, I’m not sure about that! I’m built to assist with career stuff—try asking about education or work. See [CareerVihari](https://www.careervihari.com) for more.",
+                "Hey, I can’t answer that, but I’m great with career advice! What’s your question about jobs or studies? Explore more at [CareerVihari](https://www.careervihari.com)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "initial_name",
+            "patterns": [
+                "my name is", "i am", "call me", "i’m called", "name’s", "this is",
+                "you can call me", "i go by", "my name’s", "i’m known as", "name is",
+                "they call me", "i am called", "my name", "i’m", "call me by", "i’m named",
+                "this is my name", "my full name is", "i go by the name", "my first name is",
+                "i’m referred to as", "my nickname is", "call me this", "i’m also called",
+                "my name’s this", "i’m known by", "this is what i’m called", "my name’s like",
+                "i’m called by", "my name to call", "i go with the name", "my name is this",
+                "i’m identified as", "they know me as", "my name’s set as", "i’m named as",
+                "this is how i’m called", "my full name’s", "i go by this name","me"
+            ],
+            "responses": [
+                "Nice to meet you, {name}! Let’s get started—what’s your email?",
+                "Hey {name}, so good to know you! Can you share your email now?",
+                "Arey {name}, what a cool name! Please give me your email next, okay?",
+                "Hi {name}! I’m excited to help you—can you tell me your email?",
+                "Hey {name}! Loving the vibe—drop your email, and we’re good to go!"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "email_input",
+            "patterns": [
+                "my email is", "here’s my email", "this is my email", "email’s this",
+                "my email id", "email here", "my email address is", "here is my email",
+                "this is my email id", "email id is", "my mail is", "here’s my mail",
+                "my email address", "email id here", "this is my mail", "my email’s",
+                "here’s the email", "my email id’s", "email is this", "my mail id",
+                "my email’s this", "here is my email id", "this is my email address",
+                "email address is", "my email to use", "here’s my email address",
+                "my mail id is", "email’s here", "this is the email", "my email id is this",
+                "here’s my email id", "my email address’s", "email id’s this", "my mail’s",
+                "here is the email", "my email is this", "this is my mail id", "email is",
+                "my email id to use", "here’s the email id"
+            ],
+            "responses": [
+                "Got your email, {name}! Now, which stage are you at—Post-10th, Post-12th, or something else?",
+                "Thanks for the email! Let’s move on—what’s your education stage?",
+                "Email saved! So, are you in Post-10th, Post-12th, or maybe undergrad?",
+                "Perfect, email noted! What stage are you at in your studies?",
+                "Sweet, got it, {name}! Where are you at—10th, 12th, or college?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "invalid_email",
+            "patterns": [
+                "123", "email", "abc", "xyz@", "@.com", "no email", "@123", "invalid",
+                "wrong email", "not an email", "12345", "email.com", "abc@", "@xyz",
+                "no mail", "invalid email", "wrong mail", "not a mail", "bad email",
+                "incorrect email", "email not valid", "not an email id", "wrong email id",
+                "invalid mail", "not a valid email", "email’s wrong", "not an email address",
+                "incorrect mail", "email isn’t valid", "bad mail", "wrong email address",
+                "not a proper email", "invalid email id", "email not correct", "not a valid mail",
+                "wrong mail id", "email is invalid", "not an email format", "incorrect email id",
+                "mail not valid", "not a proper mail", "email’s not right", "invalid email address"
+            ],
+            "responses": [
+                "Oops, that doesn’t look like a proper email, yaar! It should be like example@domain.com—can you try again?",
+                "Arey, I think that email is wrong. It needs to have @ and .com or something like that. Try again?",
+                "Hmm, that email doesn’t seem right. Can you give me something like yourname@gmail.com?",
+                "I don’t think that’s a valid email. Let’s try again—it should look like example@domain.com!",
+                "Arey, that’s not an email, na! Give me a proper one, like name@xyz.com, okay?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "stage_selection",
+            "patterns": [
+                "what stage", "which stage", "my education level", "where am i at",
+                "what’s my level", "tell me about stages", "what’s my education stage",
+                "which level am i", "what’s my study level", "where am i in studies",
+                "my academic stage", "what level am i at", "tell me my stage",
+                "what’s my academic level", "which stage am i at", "my study stage",
+                "what education stage", "where am i education wise", "my current level",
+                "what’s my study phase", "what’s my education phase", "where am i academically",
+                "what stage am i in", "my academic level", "what’s my current stage",
+                "which education level", "where am i at in studies", "my study level now",
+                "what’s my academic stage", "which stage of education", "my education stage now",
+                "what level of studies", "where am i at academically", "my current academic stage",
+                "what’s my education level", "which study stage", "my academic phase",
+                "what stage of studies", "where am i in my education"
+            ],
+            "responses": [
+                "Let’s find out where you’re at! Are you in Post-10th, Post-12th, Undergraduate, or Postgraduate?",
+                "Arey, tell me your stage—Post-10th, Post-12th, or maybe college?",
+                "Where are you in your studies? Post-10th, Post-12th, or something else?",
+                "I need to know your education stage—Post-10th, Post-12th, or are you in college?",
+                "Hey, what’s your level—10th done, 12th done, or already in college?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "post_10th",
+            "patterns": [
+                "post 10th", "after 10th", "just finished 10th", "10th over",
+                "done with 10th", "completed 10th", "passed 10th", "10th done",
+                "after class 10", "finished 10th grade", "10th completed",
+                "done with class 10", "after 10th standard", "10th is over",
+                "just passed 10th", "10th grade done", "completed class 10",
+                "after my 10th", "10th standard over", "i finished 10th",
+                "post 10th standard", "after completing 10th", "10th pass",
+                "done with 10th grade", "i passed 10th", "after 10th grade",
+                "10th just done", "finished my 10th", "10th standard completed",
+                "i’m done with 10th", "after my 10th standard", "10th is finished",
+                "just completed 10th", "10th grade over", "i’ve passed 10th",
+                "post 10th grade", "after finishing 10th", "10th done now",
+                "completed my 10th", "i’m post 10th"
+            ],
+            "responses": [
+                "Congrats on finishing 10th, {name}! Do you know which group you want to take, or do you need help deciding?",
+                "Arey, 10th done—superb! Have you picked a group yet, or should I help you choose?",
+                "Nice one, {name}! You’re done with 10th—do you know your group, or want some suggestions?",
+                "10th class over, yay! Let’s talk—do you know your group, or need help picking one?",
+                "Woohoo, 10th finished! What’s the plan—got a group in mind, or need my input?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "post_10th_know_group",
+            "patterns": [
+                "i know my group",
+                "i have decided my group",
+                "i am sure about my group",
+                "group chosen",
+                "i’ve picked a group",
+                "i decided my group",
+                "group is set",
+                "i’ve selected my group",
+                "my group is decided",
+                "i know which group",
+                "group already chosen",
+                "i’m sure of my group",
+                "i picked a group",
+                "my group is set",
+                "i’ve made my group choice",
+                "group selection done",
+                "i know the group i want",
+                "i’ve decided on a group",
+                "group picked",
+                "i’m clear about my group",
+                "i’m set on my group",
+                "group is chosen",
+                "i’ve finalized my group",
+                "my group’s decided",
+                "i know my stream",
+                "i’ve picked my stream",
+                "stream chosen",
+                "i decided my stream",
+                "i’m sure about my stream",
+                "i’ve selected a stream",
+                "my stream is set",
+                "i know which stream",
+                "stream already chosen",
+                "i’m sure of my stream",
+                "i picked a stream",
+                "my stream is decided",
+                "i’ve made my stream choice",
+                "stream selection done",
+                "i know the stream i want",
+                "i’ve decided on a stream",
+                "I've made up my mind about the group",
+                "I'm set on my group choice",
+                "Group decision is final",
+                "I've picked my stream",
+                "I have finalized my group choice after 10th",
+                "My group for intermediate is decided"
+            ],
+            "responses": [
+                "Great choice! Which group have you decided on—MPC, BiPC, CEC, or another? For more details on each group, visit [CareerVihari Groups](https://www.careervihari.com/groups).",
+                "Awesome! What’s the group you’ve picked? Check out [CareerVihari Groups](https://www.careervihari.com/groups) for more information.",
+                "Nice! Which group are you going for? Learn more about your options at [CareerVihari Groups](https://www.careervihari.com/groups).",
+                "Cool! Tell me, which group did you select? For additional resources, see [CareerVihari Groups](https://www.careervihari.com/groups).",
+                "Sweet! What’s your chosen group? Visit [CareerVihari Groups](https://www.careervihari.com/groups) to explore further."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "post_10th_need_help",
+            "patterns": [
+                "i need help choosing a group",
+                "i am confused about groups",
+                "which group should i choose",
+                "help me pick a group",
+                "not sure about my group",
+                "group confusion",
+                "which group is best",
+                "i’m unsure about my group",
+                "help me decide a group",
+                "i don’t know which group",
+                "confused about my group",
+                "which group to pick",
+                "need help with group selection",
+                "i’m not sure which group",
+                "help me select a group",
+                "group choice confusion",
+                "which group should i take",
+                "i need guidance on groups",
+                "unsure about group choice",
+                "help with choosing a group",
+                "i need help picking a group",
+                "i’m confused on groups",
+                "which group to choose",
+                "help me with group choice",
+                "not sure which group to pick",
+                "group selection help",
+                "i’m uncertain about my group",
+                "help me decide on a group",
+                "i don’t know my group",
+                "confused on which group",
+                "which group is right for me",
+                "need assistance with groups",
+                "i’m not sure about group selection",
+                "help me choose my group",
+                "group decision help",
+                "which group should i go for",
+                "i need advice on groups",
+                "unsure which group to choose",
+                "help with group decision",
+                "i need help with group choice",
+                "I'm not sure which group to pick",
+                "Can you help me decide on a group?",
+                "I'm confused between groups",
+                "Which group is best for me?",
+                "I need guidance on group selection",
+                "I'm lost on which group to pick",
+                "Group selection is confusing",
+                "I can't decide on a group",
+                "I need assistance in selecting a group after 10th",
+                "Can you guide me on choosing the right group for my career?"
+            ],
+            "responses": [
+                "No worries! Let's figure it out together. What subjects did you enjoy in 10th grade? For more guidance, check out [CareerVihari Group Selection Guide](https://www.careervihari.com/group-selection).",
+                "I'm here to help! Tell me, which subjects were your favorites in 10th? Visit [CareerVihari Group Selection Guide](https://www.careervihari.com/group-selection) for additional support.",
+                "Don't stress—I’ve got you! What subjects did you like in 10th? For more tips, see [CareerVihari Group Selection Guide](https://www.careervihari.com/group-selection).",
+                "Let's find the perfect group for you! Which subjects did you excel in during 10th? Explore more at [CareerVihari Group Selection Guide](https://www.careervihari.com/group-selection).",
+                "Chill, we’ll sort this out! What subjects did you enjoy the most in 10th? Check out [CareerVihari Group Selection Guide](https://www.careervihari.com/group-selection) for help."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "post_10th_subjects",
+            "patterns": [
+                "i like math",
+                "i enjoy science",
+                "social studies is my favorite",
+                "i love english",
+                "maths is cool",
+                "science rocks",
+                "i’m into social",
+                "english is fun",
+                "i like biology",
+                "physics fan",
+                "chemistry is great",
+                "i love math",
+                "science is my favorite",
+                "i enjoy social studies",
+                "english rocks",
+                "math is my thing",
+                "i’m good at science",
+                "social studies fan",
+                "i like english a lot",
+                "biology is cool",
+                "i enjoy physics",
+                "chemistry fan",
+                "maths rocks",
+                "i love science",
+                "social is great",
+                "i like mathematics",
+                "science is awesome",
+                "i’m a social studies lover",
+                "english is my favorite",
+                "maths is great",
+                "i enjoy biology",
+                "physics is cool",
+                "i like chemistry",
+                "i love mathematics",
+                "science fan",
+                "social studies is cool",
+                "i enjoy english",
+                "math is awesome",
+                "i’m into science",
+                "social studies rocks",
+                "english is great",
+                "biology rocks",
+                "i’m a physics lover",
+                "chemistry is awesome",
+                "maths is my favorite",
+                "i love social",
+                "english fan",
+                "i like math a lot",
+                "science is my thing",
+                "I'm passionate about math",
+                "Science is my strong suit",
+                "I excel in social studies",
+                "English is my favorite subject",
+                "I love biology",
+                "My favorite subject in 10th was math",
+                "I really enjoy studying science",
+                "I like both math and science",
+                "I'm good at English and social studies"
+            ],
+            "responses": [
+                "Cool, you like {subject}! Any other subjects you enjoyed? Explore how your favorite subjects can guide your group choice at [CareerVihari Subject Guide](https://www.careervihari.com/subjects).",
+                "Nice, {subject} is your favorite! What else did you like in 10th? Check out [CareerVihari Subject Guide](https://www.careervihari.com/subjects) for more insights.",
+                "Great to know you enjoy {subject}! Are there other subjects you’re into? Learn more at [CareerVihari Subject Guide](https://www.careervihari.com/subjects).",
+                "Awesome, {subject} fan! What other subjects did you vibe with in 10th? For more information, visit [CareerVihari Subject Guide](https://www.careervihari.com/subjects).",
+                "Sweet, you’re into {subject}! Did you like any other subjects? See how your interests can shape your career at [CareerVihari Subject Guide](https://www.careervihari.com/subjects)."
+            ],
+            "context": [""]
+        }, 
+    
+        {
+            "tag": "post_10th_group_selected",
+            "patterns": [
+                "MPC", "BiPC", "CEC", "Arts", "HEC", "Vocational", "Commerce", "Science",
+                "i chose MPC", "i picked BiPC", "going with CEC", "Arts for me",
+                "i selected HEC", "Vocational group", "Commerce stream", "Science group",
+                "my group is MPC", "i’m taking BiPC", "CEC is my choice", "Arts stream",
+                "HEC group", "Vocational stream", "i’m in Commerce", "Science for me",
+                "i’ve chosen MPC", "i’m going with BiPC", "picked CEC", "Arts is my stream",
+                "i went with HEC", "Vocational for me", "Commerce group", "Science stream",
+                "MPC is my group", "i’m in BiPC", "chose CEC", "Arts group",
+                "HEC stream", "Vocational is my group", "i’m with Commerce", "Science is my group",
+                "i selected MPC", "i’m taking up BiPC", "CEC for me", "Arts chosen",
+                "i picked HEC", "Vocational stream for me", "Commerce is my stream",
+                "Science chosen", "my stream is MPC", "i’m in BiPC group", "CEC stream",
+                "I have selected MPC", "I'm going for BiPC", "I've decided on CEC", "Arts is my choice",
+                "I've picked HEC", "I'm choosing Vocational", "Commerce is what I want", "Science is my path",
+                "MPC for me", "BiPC is my selection", "CEC stream selected", "Arts group for me",
+                "HEC is my group", "Vocational stream chosen", "I'm in Commerce group", "Science stream for me"
+            ],
+            "responses": [
+                "Awesome, {stream}! With this, you can go for careers like {career_path}. Want to know more about career options or entrance exams? Check out [APRJC](https://aprjdc.apcfss.in) for more details.",
+                "Nice pick, {stream}! You can explore {career_path} with this. What do you want to know—careers or exams? Visit [TSRJC](https://tsrjdc.cgg.gov.in) for more information.",
+                "Good choice with {stream}! It opens doors to {career_path}. Should we talk about careers or entrance exams next? Learn more at [EAMCET](https://eamcet.tsche.ac.in).",
+                "Yay, {stream}! This can lead to {career_path}. What’s next—career options or entrance exams? Check out [APRJC](https://aprjdc.apcfss.in) for additional resources.",
+                "Cool, {stream}! You’re set for {career_path}. What’s on your mind—jobs or exams? Visit [TSRJC](https://tsrjdc.cgg.gov.in) for more help."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "post_12th",
+            "patterns": [
+                "post 12th", "after 12th", "finished 12th", "12th done",
+                "completed 12th", "just passed 12th", "12th over", "done with 12th",
+                "after class 12", "finished 12th grade", "12th completed",
+                "done with class 12", "after 12th standard", "12th is over",
+                "just passed 12th", "12th grade done", "completed class 12",
+                "after my 12th", "12th standard over", "i finished 12th",
+                "post 12th standard", "after completing 12th", "12th pass",
+                "done with 12th grade", "i passed 12th", "after 12th grade",
+                "12th just done", "finished my 12th", "12th standard completed",
+                "i’m done with 12th", "after my 12th standard", "12th is finished",
+                "just completed 12th", "12th grade over", "i’ve passed 12th",
+                "post 12th grade", "after finishing 12th", "12th done now",
+                "completed my 12th", "i’m post 12th", "12th standard done",
+                "after 12th class", "finished with 12th", "12th completed now",
+                "i’m after 12th", "12th standard finished", "passed my 12th",
+                "I've finished 12th", "I'm done with 12th", "I've completed 12th grade", "12th is over for me",
+                "I've just passed 12th", "I'm post 12th now", "I've finished my 12th standard", "12th grade is done",
+                "I've completed my 12th", "I'm after 12th", "I've passed 12th", "12th is finished",
+                "I've just completed 12th", "I'm done with 12th grade", "I've finished 12th class", "12th standard is over"
+            ],
+            "responses": [
+                "Congrats on finishing 12th, {name}! What’s your stream—MPC, BiPC, Commerce, or something else? For more details on career paths, visit [EAMCET](https://eamcet.tsche.ac.in).",
+                "12th done—superb! Which stream are you from—MPC, BiPC, or maybe Arts? Check out [APRJC](https://aprjdc.apcfss.in) for more information.",
+                "Nice one, {name}! You’ve completed 12th—what’s your stream? MPC, BiPC, or another one? Learn more at [TSRJC](https://tsrjdc.cgg.gov.in).",
+                "Yay, 12th over! Tell me your stream—MPC, BiPC, Commerce, or Arts? Visit [EAMCET](https://eamcet.tsche.ac.in) for additional resources.",
+                "Woohoo, 12th finished, {name}! What stream did you go for? Check out [APRJC](https://aprjdc.apcfss.in) for more help."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "post_12th_stream",
+            "patterns": [
+                "i am from MPC", "i am from BiPC", "i am from Commerce", "i am from Arts",
+                "my stream is MPC", "BiPC here", "Commerce student", "Arts student",
+                "MPC student", "Science stream", "Commerce here", "Arts stream",
+                "i’m in MPC", "i’m from BiPC", "i’m a Commerce student", "i’m an Arts student",
+                "my stream is Science", "i’m in Commerce", "Arts for me", "Science student",
+                "MPC here", "BiPC student", "Commerce stream for me", "i’m in Arts",
+                "i’m an MPC student", "i’m a BiPC student", "Commerce is my stream",
+                "Arts is my stream", "i’m from Science", "i’m a Science student",
+                "MPC stream", "BiPC stream", "i’m with Commerce", "Arts stream for me",
+                "i’m from MPC stream", "i’m in BiPC stream", "Commerce stream student",
+                "Arts stream student", "Science stream for me", "i’m in Science stream",
+                "MPC for me", "BiPC for me", "i’m a Commerce stream student",
+                "i’m an Arts stream student", "Science stream student", "i’m from Arts",
+                "I studied MPC in 12th", "I'm a BiPC graduate", "Commerce was my stream in 12th",
+                "Arts stream after 12th", "My stream is Science", "I did MPC",
+                "BiPC was my stream", "I'm from the Commerce stream", "Arts is what I studied",
+                "Science stream in 12th", "stream after 12th", "post-12th stream",
+                "my stream is", "12th grade stream"
+            ],
+            "responses": [
+                "Great choice with {stream}! Want to explore career options or entrance exams? Check out [Official Website] for more info.",
+                "Awesome, you're from {stream}! Curious about careers or exams? Visit [Official Website] for details.",
+                "Nice, {stream} stream! What's next—careers or exams? Learn more at [Official Website].",
+                "Cool, you're a {stream} student! What would you like to know—careers, exams, or something else? Explore [Official Website] for resources.",
+                "Sweet, {stream}! Let's talk—what are you curious about? Careers, exams, or something else? Check out [Official Website] for more."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "undergraduate",
+            "patterns": [
+                "undergraduate", "i’m in college", "studying undergrad", "i’m an undergrad",
+                "doing my bachelor’s", "college student", "bachelor’s student", "in uni",
+                "i’m studying undergrad", "undergrad student", "i’m in university",
+                "doing my degree", "i’m a college student", "bachelor’s degree student",
+                "in college now", "studying my bachelor’s", "i’m an undergraduate",
+                "uni student", "undergrad life", "i’m pursuing undergrad",
+                "i’m doing undergrad", "undergraduate student", "i’m at college",
+                "studying in college", "i’m a uni student", "bachelor’s degree",
+                "i’m in undergrad", "college life", "i’m pursuing my bachelor’s",
+                "undergrad studies", "i’m a bachelor’s student", "in university now",
+                "studying at uni", "i’m an undergrad student", "doing undergrad",
+                "i’m in my bachelor’s", "undergraduate life", "i’m studying in college",
+                "bachelor’s program", "i’m a college undergrad",
+                "I'm a college freshman", "Pursuing my degree in college", "Undergrad in progress",
+                "Studying for my bachelor's", "I'm a university student", "I'm a first-year undergrad",
+                "Doing my bachelor's degree", "I'm in my second year of college",
+                "Undergraduate studies", "College major", "Bachelor's program", "Uni life", "Degree course"
+            ],
+            "responses": [
+                "Welcome to the undergrad journey, {name}! What's your major and year? Check out [University Website] for campus resources.",
+                "Exciting times in college! Tell me your major and year, okay? Visit [Career Planning Tool] for future planning.",
+                "Hey, undergrad life! What's your major and which year are you in? Learn more about your field at [Official Website].",
+                "Awesome, you're an undergrad! What's your major and year? Explore [Student Support Services] for helpful resources.",
+                "Cool, college vibe! What's your major and year, {name}? Check out [Official Website] for more info on your studies."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "undergraduate_details",
+            "patterns": [
+                "Computer Science 1st Year", "Mechanical Engineering 2nd Year", "Economics 3rd Year",
+                "B.Com 2nd Year", "Physics 4th Year", "BBA 1st Year", "Maths 3rd Year",
+                "Chemistry 2nd Year", "BCA 1st Year", "CS 1st Year", "Mech Eng 2nd Year",
+                "Eco 3rd Year", "BCom 2nd Year", "Physics 4th Year", "BBA 1st Year",
+                "Mathematics 3rd Year", "Chem 2nd Year", "BCA 1st Year", "Computer Science First Year",
+                "Mechanical Engineering Second Year", "Economics Third Year", "B.Com Second Year",
+                "Physics Fourth Year", "BBA First Year", "Maths Third Year", "Chemistry Second Year",
+                "BCA First Year", "CS First Year", "Mech Eng Second Year", "Eco Third Year",
+                "BCom Second Year", "Physics 4th Yr", "BBA First Yr", "Mathematics Third Yr",
+                "Chem Second Yr", "BCA First Yr", "Computer Science 1st Yr",
+                "Mechanical Eng 2nd Yr", "Economics 3rd Yr", "B.Com 2nd Yr",
+                "Physics Fourth Yr", "BBA 1st Yr", "Maths 3rd Yr", "Chemistry 2nd Yr",
+                "BCA 1st Yr", "CS 1st Yr", "Mech Eng 2nd Yr", "Eco 3rd Yr",
+                "Electrical Engineering 1st Year", "Civil Engineering 2nd Year", "Biotechnology 3rd Year",
+                "B.Sc 1st Year", "BA 2nd Year", "B.Tech 3rd Year", "B.E 4th Year",
+                "Elect Eng 1st Yr", "Civil Eng 2nd Yr", "Biotech 3rd Yr", "BSc 1st Yr",
+                "BA Second Yr", "BTech Third Yr", "BE Fourth Yr", "Computer Science freshman",
+                "Mechanical Engineering sophomore", "Economics junior", "B.Com sophomore",
+                "Physics senior", "BBA freshman", "Maths junior", "Chemistry sophomore",
+                "BCA freshman", "CS freshman", "Mech Eng sophomore", "Eco junior",
+                "undergraduate major", "my college major", "studying computer science",
+                "in mechanical engineering", "pursuing economics degree", "B.Com student",
+                "physics major", "BBA program", "maths degree", "chemistry studies"
+            ],
+            "responses": [
+                "Great to know, {name}! You’re a {year} {major} student. Are you enjoying your course? For more resources, check out [University Grants Commission](https://www.ugc.ac.in).",
+                "Nice, {name}! A {year} {major} student—cool! Do you like your course? Explore more about your field at [AICTE](https://www.aicte-india.org).",
+                "Awesome, {name}! You’re in {year} of {major}. Are you enjoying it so far? Visit [National Career Service](https://www.ncs.gov.in) for career guidance.",
+                "Good to hear, {name}! As a {year} {major} student, are you liking your studies? Check out [UGC](https://www.ugc.ac.in) for academic support.",
+                "Sweet, {name}! {year} year in {major}—how’s it going? Learn more about your course at [AICTE](https://www.aicte-india.org)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "undergraduate_enjoy",
+            "patterns": [
+                "yes", "yeah", "no", "nope", "it’s okay", "kinda", "not really", "sort of",
+                "yep", "nah", "it’s alright", "kind of", "not so much", "a bit",
+                "yes i do", "no i don’t", "it’s fine", "somewhat", "not at all",
+                "i like it", "i don’t like it", "it’s okay i guess", "a little",
+                "yes enjoying", "no not enjoying", "yup", "not much", "it’s good",
+                "not that much", "i enjoy it", "i don’t enjoy it", "it’s okayish",
+                "a little bit", "yes i like it", "no i don’t like it", "it’s alright i guess",
+                "somewhat enjoying", "not really enjoying", "i’m liking it",
+                "i’m not liking it", "it’s fine i guess", "a bit enjoying",
+                "yes i’m enjoying", "no i’m not enjoying", "absolutely", "definitely",
+                "not at all enjoying", "really enjoying", "barely enjoying", "pretty good",
+                "not enjoying much", "love it", "hate it", "it’s great", "it’s terrible",
+                "enjoying my course", "not enjoying my course", "course enjoyment",
+                "how I feel about my major", "liking my studies", "disliking my studies"
+            ],
+            "responses": [
+                "Glad you’re enjoying it, {name}! As a {year} {major} student, what are you interested in—internships, careers, or higher studies? Check out [National Career Service](https://www.ncs.gov.in) for opportunities.",
+                "Nice to hear you like it! Being a {year} {major} student, what do you want to explore—jobs, internships, or further studies? Visit [Internshala](https://internshala.com) for internships.",
+                "Sorry to hear you’re not enjoying it, {name}. As a {year} {major} student, let’s find something exciting—careers, internships, or higher studies? Explore options at [National Career Service](https://www.ncs.gov.in).",
+                "Oh no, you’re not liking it? Let’s explore options for a {year} {major} student—jobs, internships, or further studies? Check out [Internshala](https://internshala.com) for opportunities.",
+                "It’s okay so far? What’s next for a {year} {major} student—jobs or more studies? Learn more at [AICTE](https://www.aicte-india.org)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "postgraduate",
+            "patterns": [
+                "postgraduate", "i’m doing masters", "finished undergrad", "i’m a pg student",
+                "doing my master’s", "postgrad life", "masters student", "pg course",
+                "i’m in postgraduate", "studying masters", "postgrad student",
+                "i completed undergrad", "i’m a masters student", "doing postgrad",
+                "in my master’s", "postgraduate student", "i’m studying postgrad",
+                "masters degree student", "pg life", "i’m pursuing masters",
+                "i’m a postgrad", "postgraduate studies", "i’m in masters",
+                "studying my master’s", "i’m a pg", "postgrad course",
+                "i’m doing postgrad", "masters program", "i’m in pg",
+                "studying postgrad", "i’m a postgraduate student", "masters life",
+                "i completed my undergrad", "i’m in a masters program",
+                "postgraduate program", "i’m pursuing postgrad", "pg studies",
+                "i’m studying in masters", "masters degree", "i’m a postgrad student",
+                "just finished undergrad", "starting my masters", "enrolled in postgraduate",
+                "pursuing a masters degree", "postgrad journey", "masters studies",
+                "completed my bachelor’s", "in a pg program", "postgraduate education",
+                "studying for my masters", "postgrad degree", "masters course"
+            ],
+            "responses": [
+                "Wow, postgraduate—impressive, {name}! What’s your field of study—MBA, M.Tech, Medicine, or something else? Check out [University Grants Commission](https://www.ugc.ac.in) for more resources.",
+                "You’re a postgraduate—superb! What field are you studying in? Visit [AICTE](https://www.aicte-india.org) for details on postgraduate programs.",
+                "Nice one, {name}! Postgraduate life—what’s your field? MBA, M.Tech, or another one? Explore more at [National Career Service](https://www.ncs.gov.in).",
+                "Postgraduate, yay! Tell me your field of study—MBA, M.Tech, or something else? Learn more about your options at [UGC](https://www.ugc.ac.in).",
+                "Hey, postgrad champ! What’s your field—MBA, M.Tech, or something cool? Check out [AICTE](https://www.aicte-india.org) for additional support."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "postgraduate_field",
+            "patterns": [
+                "i am doing MBA", "i am in M.Tech", "i am studying Medicine",
+                "MBA student", "M.Tech here", "Medicine pg", "M.Sc student",
+                "doing MA", "PhD student", "i’m pursuing MBA", "i’m in M.Tech",
+                "studying Medicine", "i’m an MBA student", "M.Tech student",
+                "Medicine postgraduate", "M.Sc here", "i’m doing MA",
+                "PhD candidate", "MBA for me", "M.Tech field",
+                "i’m studying MBA", "i’m an M.Tech student", "Medicine student",
+                "M.Sc for me", "i’m pursuing MA", "PhD for me",
+                "i’m in MBA", "i’m studying M.Tech", "Medicine postgrad",
+                "M.Sc student here", "i’m an MA student", "PhD program",
+                "MBA is my field", "M.Tech is my field", "studying Medicine pg",
+                "i’m in M.Sc", "i’m doing PhD", "MBA program",
+                "M.Tech program", "Medicine field", "M.Sc field",
+                "pursuing M.Com", "studying MCA", "in LLM program", "doing M.Pharm",
+                "M.Com student", "MCA here", "LLM student", "M.Pharm field",
+                "i’m an M.Com student", "studying MCA", "pursuing LLM", "M.Pharm student",
+                "postgraduate in MBA", "M.Tech postgraduate", "Medicine masters",
+                "M.Sc degree", "MA program", "PhD studies", "postgrad field"
+            ],
+            "responses": [
+                "Cool, you’re studying {field}! What do you want to know—job prospects, research opportunities, or something else? Explore [National Career Service](https://www.ncs.gov.in) for job opportunities.",
+                "Nice, {field}! Let’s talk—what are you curious about? Jobs, research, or something else? Check out [ResearchGate](https://www.researchgate.net) for research opportunities.",
+                "Great choice with {field}! What’s next? Want to explore job options or research opportunities? Visit [National Career Service](https://www.ncs.gov.in) for career guidance.",
+                "Good to know, {field}! What would you like to learn about—jobs, research, or something else? Learn more at [AICTE](https://www.aicte-india.org).",
+                "Sweet, {field} it is! What’s on your mind—career or research? Check out [ResearchGate](https://www.researchgate.net) for research insights."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "career_options",
+            "patterns": [
+                "what are the career options", "tell me about career paths", "what can i do after this",
+                "what’s next for me", "career ideas", "job options", "what jobs can i do",
+                "future career", "career choices", "what careers can i pursue",
+                "tell me about jobs", "what can i do next", "career opportunities",
+                "what’s my next step", "job ideas", "what are my career options",
+                "career paths for me", "what to do after this", "future job options",
+                "what careers are there", "what jobs are available", "career possibilities",
+                "what can i do in the future", "job opportunities for me", "what’s next career wise",
+                "career options for me", "what jobs can i get", "future career paths",
+                "what are my job options", "career ideas for me", "what can i pursue",
+                "tell me about career opportunities", "what’s next after this",
+                "job choices", "what careers can i go for", "tell me about job options",
+                "what can i do after my studies", "career paths after this",
+                "future jobs for me", "what career should i choose",
+                "best career options after graduation", "career paths after 12th",
+                "job opportunities after masters", "what to do after undergrad",
+                "career options for my stream", "jobs after my degree",
+                "what careers suit my field", "future career opportunities",
+                "career paths for my major", "what jobs can i do with my degree",
+                "career guidance after studies", "job prospects for my field",
+                "what’s the best career for me", "career options after my course"
+            ],
+            "responses": [
+                "Lots of career options for you, {name}! With your background, you can look into {career_path}. Want more details? Check out [National Career Service](https://www.ncs.gov.in) for job opportunities.",
+                "You’ve got some cool career paths! You can go for {career_path}. Should I tell you more? Explore [Naukri](https://www.naukri.com) for job listings.",
+                "Career options? With your stream, you can try {career_path}. Want to explore more? Visit [National Career Service](https://www.ncs.gov.in) for career guidance.",
+                "You can do so much! How about {career_path}—sounds good? Let me know if you want more info! Check out [LinkedIn](https://www.linkedin.com) for career insights.",
+                "Tons of jobs out there! {career_path} could be your thing—want to dig deeper? Learn more at [Naukri](https://www.naukri.com)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "entrance_exams",
+            "patterns": [
+                "what entrance exams should i take", "tell me about entrance exams", "which exams are important",
+                "exams for my field", "what tests do i need", "entrance test info", "which exam for me",
+                "important tests", "what exams should i give", "tell me about tests",
+                "which entrance exams", "exams i should take", "entrance exams for me",
+                "what tests are important", "info on entrance exams", "which exams to take",
+                "exams for my stream", "what entrance tests", "important entrance exams",
+                "tests for my field", "what entrance exams are there", "tell me about entrance tests",
+                "which exams should i give", "exams i need to take", "entrance exams info",
+                "what tests should i take", "which entrance tests", "exams for my career",
+                "what entrance exams for me", "tell me about important exams",
+                "which tests are important", "info about entrance exams", "exams to take",
+                "entrance tests for my stream", "what entrance exams to give",
+                "important tests for me", "tests i should give", "entrance exams details",
+                "what tests for my field", "which entrance exams for my stream",
+                "entrance exams after 12th", "exams for engineering", "medical entrance exams",
+                "MBA entrance exams", "exams after graduation", "entrance tests for masters",
+                "important exams for my career", "entrance exams for my major",
+                "what exams to take after undergrad", "entrance tests for my field"
+            ],
+            "responses": [
+                "Entrance exams depend on your goal, {name}! For your field, you can try {exam}. Want to know how to prepare? Check out [JEE Main](https://jeemain.nta.nic.in) for engineering exams.",
+                "Exams are important! You can go for {exam} in your field. Need prep tips? Visit [NEET](https://neet.nta.nic.in) for medical entrance details.",
+                "For your stream, {exam} is a good exam to take. Should I tell you more about it? Explore [CAT](https://iimcat.ac.in) for MBA entrance info.",
+                "Exams like {exam} are great for your path. Want some advice on how to crack it? Learn more at [GATE](https://gate.iitb.ac.in) for technical fields.",
+                "Hey, {exam} could be your ticket! Want some prep hacks? Check out [JEE Main](https://jeemain.nta.nic.in) for more details."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "internship_opportunities",
+            "patterns": [
+                "are there any internships", "tell me about internship opportunities", "how can i get an internship",
+                "internship ideas", "where to find internships", "can i intern", "internship for me",
+                "internship options", "any internships available", "how to find internships",
+                "internship possibilities", "where can i intern", "internships for me",
+                "tell me about internships", "can i get an internship", "internship openings",
+                "how to get an internship", "internship opportunities for me", "any internship ideas",
+                "where to look for internships", "are there internships for me", "tell me about internship options",
+                "how do i get an internship", "internship suggestions", "where can i find internships",
+                "can i do an internship", "internship opportunities available", "how to apply for internships",
+                "internships i can do", "tell me about internship possibilities", "can i find an internship",
+                "internship openings for me", "how to land an internship", "internship ideas for me",
+                "where to search for internships", "are there any internship openings",
+                "tell me about internships for me", "can i get internship opportunities",
+                "internship options for me", "where can i look for internships",
+                "internships for college students", "summer internship opportunities",
+                "internship programs for my major", "how to find internships online",
+                "internship opportunities for undergrads", "internships in my field",
+                "best platforms for internships", "internship search tips",
+                "how to apply for internships as a student", "internship opportunities near me"
+            ],
+            "responses": [
+                "Internships are a great idea, {name}! As a {year} {major} student, you can look for internships in {field}. Want tips to apply? Check out [Internshala](https://internshala.com) for opportunities.",
+                "Internships can help a lot! For {major}, you can find some in {field}. Should I help you with the process? Explore [LinkedIn](https://www.linkedin.com) for internship listings.",
+                "Yes, there are internships for {major} students! You can try in {field}. Need help finding one? Visit [Naukri](https://www.naukri.com) for internship openings.",
+                "Internships in {field} are perfect for you, {name}! Let me guide you on how to get one. Learn more at [Internshala](https://internshala.com).",
+                "Hey, {name}! You can totally intern in {field}—want some cool tips to land one? Check out [LinkedIn](https://www.linkedin.com) for more opportunities."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "higher_studies",
+            "patterns": [
+                "what about higher studies", "tell me about further education", "can i pursue higher studies",
+                "more studies options", "what’s next after this", "higher education info", "further studies",
+                "can i study more", "what’s after this", "tell me about higher education",
+                "options for higher studies", "can i do more studies", "what’s next in studies",
+                "higher studies options", "further education info", "can i continue studying",
+                "what to study next", "higher education for me", "more education options",
+                "what’s after my current studies", "what about further studies", "tell me about more education",
+                "can i go for higher studies", "more study possibilities", "what’s next for my education",
+                "higher education details", "further studies options", "can i pursue more studies",
+                "what’s after this in studies", "tell me about higher studies options",
+                "options for further education", "can i continue my studies", "what to do next in studies",
+                "higher studies for me", "further education for me", "can i study further",
+                "what’s the next step in studies", "higher education possibilities",
+                "more studies for me", "what’s next after my studies",
+                "higher studies after undergrad", "further education after 12th",
+                "masters programs for my field", "higher education options for me",
+                "what to study after graduation", "pursuing higher studies abroad",
+                "higher studies after my degree", "next steps in education",
+                "further studies for my major", "higher education programs"
+            ],
+            "responses": [
+                "Higher studies are a great option, {name}! With {major}, you can go for {higher_study}. Want to know about exams for it? Check out [University Grants Commission](https://www.ugc.ac.in) for more info.",
+                "You can definitely go for higher studies! How about {higher_study} after {major}? Need more info? Visit [AICTE](https://www.aicte-india.org) for details.",
+                "Yes, higher studies are possible! For {major}, you can try {higher_study}. Should I tell you about entrance exams? Explore [GATE](https://gate.iitb.ac.in) for technical fields.",
+                "Higher studies can be awesome! You can pursue {higher_study} with {major}. Want to learn more? Check out [UGC](https://www.ugc.ac.in) for higher education resources.",
+                "More studies sound fun? {higher_study} could be your next step—want details? Visit [AICTE](https://www.aicte-india.org) for more on postgraduate programs."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "skills_required",
+            "patterns": [
+                "what skills do i need", "skills for this career", "how to prepare for this job",
+                "what skills should i learn", "job prep skills", "skills for my field", "required skills",
+                "what to learn for job", "what skills are needed", "skills for this job",
+                "how to get ready for this career", "what should i learn for this job",
+                "skills needed for my field", "job preparation skills", "what skills to develop",
+                "skills required for this career", "how to prepare for my field",
+                "what to learn for my career", "skills for job prep", "what skills for this field",
+                "what skills are required", "skills to learn for this career", "how to prep for this job",
+                "what skills should i have", "job readiness skills", "skills for my career path",
+                "necessary skills", "what to learn for this job", "what skills do i need to learn",
+                "skills for this profession", "how to be ready for this career", "what skills to learn for job",
+                "skills needed for this field", "job prep skills needed", "what skills to improve",
+                "skills required for my career", "how to get prepared for this field",
+                "what to learn for my job", "skills for career prep", "what skills for my career",
+                "essential skills for my career", "skills to get a job in my field",
+                "how to develop skills for my career", "what skills are important for this job",
+                "career preparation skills", "skills needed for my profession",
+                "how to improve skills for my job", "what skills to learn for my field",
+                "job skills for my career path", "skills to prepare for my profession"
+            ],
+            "responses": [
+                "For a career in {career}, you’ll need skills like {skills}. Want some tips to build them? Check out [Coursera](https://www.coursera.org) for online courses.",
+                "To become a {career}, you need {skills}. Should I help you with how to learn them? Explore [Udemy](https://www.udemy.com) for skill-building resources.",
+                "Skills for {career}? You’ll need {skills}. Let me share some ways to improve them! Visit [LinkedIn Learning](https://www.linkedin.com/learning) for tutorials.",
+                "To prepare for {career}, work on {skills}. Need advice on how to get better at them? Learn more at [Coursera](https://www.coursera.org).",
+                "Hey, for {career}, {skills} are key! Want some hacks to master them? Check out [Udemy](https://www.udemy.com) for relevant courses."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "ts_polycet",
+            "patterns": [
+                "tell me about POLYCET", "what is POLYCET", "how to prepare for POLYCET",
+                "POLYCET details", "POLYCET in TS", "what’s POLYCET for", "TS POLYCET info",
+                "info on POLYCET", "what’s TS POLYCET", "how to study for POLYCET",
+                "POLYCET in Telangana", "POLYCET exam details", "what is POLYCET exam",
+                "how to get ready for POLYCET", "TS POLYCET preparation", "POLYCET info",
+                "what’s the POLYCET test", "POLYCET for Telangana", "details about POLYCET",
+                "how to crack POLYCET", "what’s POLYCET in TS", "POLYCET exam info",
+                "how to prep for POLYCET", "TS POLYCET details", "what is POLYCET for",
+                "info about POLYCET", "what’s Telangana POLYCET", "how to prepare for TS POLYCET",
+                "POLYCET in TS details", "POLYCET exam in Telangana", "what is the POLYCET exam",
+                "how to study for TS POLYCET", "TS POLYCET exam info", "POLYCET test details",
+                "what’s POLYCET in Telangana", "details on POLYCET", "how to ace POLYCET",
+                "POLYCET preparation tips", "what’s the POLYCET exam for", "POLYCET TS info",
+                "TS POLYCET syllabus", "POLYCET exam date in Telangana",
+                "how to apply for TS POLYCET", "TS POLYCET eligibility",
+                "POLYCET preparation books", "TS POLYCET exam pattern",
+                "how to register for TS POLYCET", "POLYCET for diploma courses"
+            ],
+            "responses": [
+                "POLYCET is your ticket to diploma courses after 10th in Telangana! It’s for polytechnic admissions—think engineering, pharmacy, or agriculture diplomas. You need to pass 10th with Maths, Physics, and Chemistry. Exam’s usually in April. Want prep tips? Check out [TS POLYCET Official Website](https://polycetts.nic.in).",
+                "POLYCET in TS is awesome for diploma seekers! It’s a state-level test for courses like Mechanical or Civil Engineering after 10th. Focus on your 10th syllabus—Maths, Physics, Chemistry. Need study hacks? Visit [TS POLYCET Official Website](https://polycetts.nic.in) for more details.",
+                "Hey, POLYCET is the Polytechnic Common Entrance Test! Clear it, and you’re into 3-year diploma courses in TS. Exam’s easy if you revise 10th basics. Want to know the pattern? Explore [TS POLYCET Official Website](https://polycetts.nic.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "ap_polycet",
+            "patterns": [
+                "tell me about AP POLYCET", "what is AP POLYCET", "how to prepare for AP POLYCET",
+                "AP POLYCET details", "POLYCET in AP", "AP POLYCET info", "what’s AP POLYCET",
+                "how to study for AP POLYCET", "POLYCET in Andhra Pradesh", "AP POLYCET exam",
+                "what is AP POLYCET exam", "how to get ready for AP POLYCET", "AP POLYCET prep",
+                "info on AP POLYCET", "what’s the AP POLYCET test", "POLYCET for AP",
+                "details about AP POLYCET", "how to crack AP POLYCET", "AP POLYCET preparation",
+                "AP POLYCET information", "what’s POLYCET in AP", "AP POLYCET exam info",
+                "how to prep for AP POLYCET", "AP POLYCET details info", "what is AP POLYCET for",
+                "info about AP POLYCET", "what’s Andhra POLYCET", "how to prepare for AP POLYCET",
+                "POLYCET in AP details", "POLYCET exam in Andhra Pradesh", "what is the AP POLYCET exam",
+                "how to study for AP POLYCET", "AP POLYCET exam details", "POLYCET test in AP",
+                "what’s AP POLYCET in Andhra", "details on AP POLYCET", "how to ace AP POLYCET",
+                "AP POLYCET preparation tips", "what’s the AP POLYCET exam for", "POLYCET AP info",
+                "AP POLYCET syllabus", "POLYCET exam date in Andhra Pradesh",
+                "how to apply for AP POLYCET", "AP POLYCET eligibility",
+                "POLYCET preparation books for AP", "AP POLYCET exam pattern",
+                "how to register for AP POLYCET", "POLYCET for diploma courses in AP"
+            ],
+            "responses": [
+                "AP POLYCET is for diploma courses after 10th in Andhra Pradesh! It’s your gateway to polytechnics—engineering, agriculture, you name it. You need 10th pass with decent marks. Happens in April usually. Prep tips? Check out [AP POLYCET Official Website](https://polycetap.nic.in).",
+                "AP POLYCET is a big deal for diploma aspirants! It’s for 3-year courses after 10th—like Electrical or Computer Engineering. Stick to 10th Maths, Physics, Chemistry, and you’re good. Want some study ideas? Visit [AP POLYCET Official Website](https://polycetap.nic.in).",
+                "AP POLYCET is the Polytechnic Entrance Test in Andhra! Crack it, and you’re set for diploma life. Focus on 10th basics, and you’ll ace it. Need more details? Explore [AP POLYCET Official Website](https://polycetap.nic.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "eamcet",
+            "patterns": [
+                "tell me about EAMCET", "what is EAMCET", "how to prepare for EAMCET",
+                "EAMCET details", "EAMCET in AP and TS", "what’s EAMCET for",
+                "info on EAMCET", "what’s EAMCET exam", "how to study for EAMCET",
+                "EAMCET in Andhra and Telangana", "EAMCET exam details",
+                "what is EAMCET test", "how to get ready for EAMCET", "EAMCET preparation",
+                "EAMCET info", "what’s the EAMCET test", "EAMCET for AP and TS",
+                "details about EAMCET", "how to crack EAMCET", "EAMCET prep",
+                "what’s EAMCET in AP and TS", "EAMCET exam info",
+                "how to prep for EAMCET", "EAMCET details info", "what is EAMCET for",
+                "info about EAMCET", "what’s AP and TS EAMCET", "how to prepare for EAMCET",
+                "EAMCET in AP and TS details", "EAMCET exam in Andhra and Telangana",
+                "what is the EAMCET exam", "how to study for EAMCET exam",
+                "EAMCET exam details info", "EAMCET test in AP and TS",
+                "what’s EAMCET in Andhra and Telangana", "details on EAMCET",
+                "how to ace EAMCET", "EAMCET preparation tips",
+                "what’s the EAMCET exam for", "EAMCET AP and TS info",
+                "EAMCET syllabus", "EAMCET exam date", "how to apply for EAMCET",
+                "EAMCET eligibility", "EAMCET preparation books", "EAMCET exam pattern",
+                "how to register for EAMCET", "EAMCET for engineering",
+                "EAMCET for medical courses", "EAMCET preparation strategy"
+            ],
+            "responses": [
+                "EAMCET is huge in AP and TS, {name}! It’s the Engineering, Agriculture, and Medical Common Entrance Test for 12th pass students. For engineering or pharmacy, you need PCM; for medical, PCB. Happens in May usually. Want prep ideas? Check out [TS EAMCET Official Website](https://eamcet.tsche.ac.in).",
+                "EAMCET is your shot at engineering or medical colleges in AP and TS! You need 12th with good marks in PCM or PCB. It’s a state-level test—pretty competitive but doable. How about some study tips? Visit [AP EAPCET Official Website](https://cets.apsche.ap.gov.in/EAPCET).",
+                "Hey, EAMCET is all about getting into B.Tech, B.Pharm, or Agri courses after 12th! AP and TS run it together. Focus on 12th syllabus and practice papers. Need help planning? Explore [TS EAMCET Official Website](https://eamcet.tsche.ac.in) for more details."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "ap_eapcet",
+            "patterns": [
+                "tell me about AP EAPCET", "what is AP EAPCET", "how to prepare for AP EAPCET",
+                "AP EAPCET details", "EAPCET in AP", "AP EAPCET info", "what’s AP EAPCET",
+                "how to study for AP EAPCET", "EAPCET in Andhra Pradesh", "AP EAPCET exam",
+                "what is AP EAPCET exam", "how to get ready for AP EAPCET", "AP EAPCET prep",
+                "info on AP EAPCET", "what’s the AP EAPCET test", "EAPCET for AP",
+                "details about AP EAPCET", "how to crack AP EAPCET", "AP EAPCET preparation",
+                "AP EAPCET information", "what’s EAPCET in AP", "AP EAPCET exam info",
+                "how to prep for AP EAPCET", "AP EAPCET details info", "what is AP EAPCET for",
+                "info about AP EAPCET", "what’s Andhra EAPCET", "how to prepare for AP EAPCET",
+                "EAPCET in AP details", "EAPCET exam in Andhra Pradesh", "what is the AP EAPCET exam",
+                "how to study for AP EAPCET exam", "AP EAPCET exam details", "EAPCET test in AP",
+                "what’s AP EAPCET in Andhra", "details on AP EAPCET", "how to ace AP EAPCET",
+                "AP EAPCET preparation tips", "what’s the AP EAPCET exam for", "EAPCET AP info",
+                "AP EAPCET syllabus", "AP EAPCET exam date", "how to apply for AP EAPCET",
+                "AP EAPCET eligibility", "AP EAPCET preparation books", "AP EAPCET exam pattern",
+                "how to register for AP EAPCET", "AP EAPCET for engineering",
+                "AP EAPCET for agriculture courses", "AP EAPCET preparation strategy"
+            ],
+            "responses": [
+                "AP EAPCET is the new name for EAMCET in Andhra, {name}! It’s for engineering, agri, and pharmacy courses after 12th. You need PCM for engineering, PCB for others. Exam’s in May—start with 12th books! Want prep hacks? Check out [AP EAPCET Official Website](https://cets.apsche.ap.gov.in/EAPCET).",
+                "Hey, AP EAPCET is your entry to top colleges in Andhra! Post-12th test for B.Tech or B.Pharm. Stick to Physics, Chemistry, and Maths/Bio from 12th. Need some study tricks? Visit [AP EAPCET Official Website](https://cets.apsche.ap.gov.in/EAPCET) for more details.",
+                "AP EAPCET is super important! It’s for engineering and agri admissions in AP. Revise 12th syllabus, solve past papers, and you’re set. How can I help you prep? Explore [AP EAPCET Official Website](https://cets.apsche.ap.gov.in/EAPCET)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "ts_eamcet",
+            "patterns": [
+                "tell me about TS EAMCET", "what is TS EAMCET", "how to prepare for TS EAMCET",
+                "TS EAMCET details", "EAMCET in TS", "TS EAMCET info", "what’s TS EAMCET",
+                "how to study for TS EAMCET", "EAMCET in Telangana", "TS EAMCET exam",
+                "what is TS EAMCET exam", "how to get ready for TS EAMCET", "TS EAMCET prep",
+                "info on TS EAMCET", "what’s the TS EAMCET test", "EAMCET for TS",
+                "details about TS EAMCET", "how to crack TS EAMCET", "TS EAMCET preparation",
+                "TS EAMCET information", "what’s EAMCET in TS", "TS EAMCET exam info",
+                "how to prep for TS EAMCET", "TS EAMCET details info", "what is TS EAMCET for",
+                "info about TS EAMCET", "what’s Telangana EAMCET", "how to prepare for TS EAMCET",
+                "EAMCET in TS details", "EAMCET exam in Telangana", "what is the TS EAMCET exam",
+                "how to study for TS EAMCET exam", "TS EAMCET exam details", "EAMCET test in TS",
+                "what’s TS EAMCET in Telangana", "details on TS EAMCET", "how to ace TS EAMCET",
+                "TS EAMCET preparation tips", "what’s the TS EAMCET exam for", "EAMCET TS info",
+                "TS EAMCET syllabus", "TS EAMCET exam date", "how to apply for TS EAMCET",
+                "TS EAMCET eligibility", "TS EAMCET preparation books", "TS EAMCET exam pattern",
+                "how to register for TS EAMCET", "TS EAMCET for engineering",
+                "TS EAMCET for agriculture courses", "TS EAMCET preparation strategy",
+                "TS EAMCET application process", "TS EAMCET cutoff details"
+            ],
+            "responses": [
+                "TS EAMCET is your key to engineering and agri colleges in Telangana, {name}! Post-12th test—PCM for engineering, PCB for agri or pharmacy. Usually in May. Want some prep tips? Check out [TS EAMCET Official Website](https://eamcet.tsche.ac.in).",
+                "Hey, TS EAMCET is all about B.Tech or B.Sc Agri in Telangana! You need 12th with good marks. Focus on 12th Physics, Chemistry, Maths/Bio. How about some study ideas? Visit [TS EAMCET Official Website](https://eamcet.tsche.ac.in) for more details.",
+                "TS EAMCET is a biggie! Crack it for engineering or pharmacy in TS. Revise 12th stuff, practice MCQs, and you’re golden. Need help? Explore [TS EAMCET Official Website](https://eamcet.tsche.ac.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "ap_icet",
+            "patterns": [
+                "tell me about AP ICET", "what is AP ICET", "how to prepare for AP ICET",
+                "AP ICET details", "ICET in AP", "AP ICET info", "what’s AP ICET",
+                "how to study for AP ICET", "ICET in Andhra Pradesh", "AP ICET exam",
+                "what is AP ICET exam", "how to get ready for AP ICET", "AP ICET prep",
+                "info on AP ICET", "what’s the AP ICET test", "ICET for AP",
+                "details about AP ICET", "how to crack AP ICET", "AP ICET preparation",
+                "AP ICET information", "what’s ICET in AP", "AP ICET exam info",
+                "how to prep for AP ICET", "AP ICET details info", "what is AP ICET for",
+                "info about AP ICET", "what’s Andhra ICET", "how to prepare for AP ICET",
+                "ICET in AP details", "ICET exam in Andhra Pradesh", "what is the AP ICET exam",
+                "how to study for AP ICET exam", "AP ICET exam details", "ICET test in AP",
+                "what’s AP ICET in Andhra", "details on AP ICET", "how to ace AP ICET",
+                "AP ICET preparation tips", "what’s the AP ICET exam for", "ICET AP info",
+                "AP ICET syllabus", "AP ICET exam date", "how to apply for AP ICET",
+                "AP ICET eligibility", "AP ICET preparation books", "AP ICET exam pattern",
+                "how to register for AP ICET", "AP ICET for MBA",
+                "AP ICET for MCA courses", "AP ICET preparation strategy",
+                "AP ICET application process", "AP ICET cutoff details"
+            ],
+            "responses": [
+                "AP ICET is for MBA and MCA admissions in Andhra, {name}! You need a bachelor’s degree—any stream works. Tests your reasoning, maths, and English. Happens in May. Want prep tips? Check out [AP ICET Official Website](https://cets.apsche.ap.gov.in/ICET).",
+                "Hey, AP ICET is your ticket to management or computer courses in AP! Post-grad test—focus on analytical skills and basic maths. Pretty chill if you practice. Study ideas? Visit [AP ICET Official Website](https://cets.apsche.ap.gov.in/ICET).",
+                "AP ICET is awesome for MBA/MCA aspirants! You need a degree, then crack this test in May. Brush up reasoning and communication. How can I help? Explore [AP ICET Official Website](https://cets.apsche.ap.gov.in/ICET)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "ts_icet",
+            "patterns": [
+                "tell me about TS ICET", "what is TS ICET", "how to prepare for TS ICET",
+                "TS ICET details", "ICET in TS", "TS ICET info", "what’s TS ICET",
+                "how to study for TS ICET", "ICET in Telangana", "TS ICET exam",
+                "what is TS ICET exam", "how to get ready for TS ICET", "TS ICET prep",
+                "info on TS ICET", "what’s the TS ICET test", "ICET for TS",
+                "details about TS ICET", "how to crack TS ICET", "TS ICET preparation",
+                "TS ICET information", "what’s ICET in TS", "TS ICET exam info",
+                "how to prep for TS ICET", "TS ICET details info", "what is TS ICET for",
+                "info about TS ICET", "what’s Telangana ICET", "how to prepare for TS ICET",
+                "ICET in TS details", "ICET exam in Telangana", "what is the TS ICET exam",
+                "how to study for TS ICET exam", "TS ICET exam details", "ICET test in TS",
+                "what’s TS ICET in Telangana", "details on TS ICET", "how to ace TS ICET",
+                "TS ICET preparation tips", "what’s the TS ICET exam for", "ICET TS info",
+                "TS ICET syllabus", "TS ICET exam date", "how to apply for TS ICET",
+                "TS ICET eligibility", "TS ICET preparation books", "TS ICET exam pattern",
+                "how to register for TS ICET", "TS ICET for MBA",
+                "TS ICET for MCA courses", "TS ICET preparation strategy",
+                "TS ICET application process", "TS ICET cutoff details",
+                "TS ICET exam preparation guide", "TS ICET for management courses"
+            ],
+            "responses": [
+                "TS ICET is for MBA and MCA in Telangana, {name}! Bachelor’s degree holders can apply—tests your logic, maths, and English. Usually in May. Prep tips, anyone? Check out [TS ICET Official Website](https://icet.tsche.ac.in).",
+                "Hey, TS ICET gets you into top management or MCA colleges in TS! Post-grad test—focus on reasoning and basic skills. Practice makes it easy. Want study hacks? Visit [TS ICET Official Website](https://icet.tsche.ac.in).",
+                "TS ICET is your shot at MBA/MCA in Telangana! Degree needed, then ace this May exam. Work on analytics and communication. How can I assist? Explore [TS ICET Official Website](https://icet.tsche.ac.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "ap_pgcet",
+            "patterns": [
+                "tell me about AP PGCET", "what is AP PGCET", "how to prepare for AP PGCET",
+                "AP PGCET details", "PGCET in AP", "AP PGCET info", "what’s AP PGCET",
+                "how to study for AP PGCET", "PGCET in Andhra Pradesh", "AP PGCET exam",
+                "what is AP PGCET exam", "how to get ready for AP PGCET", "AP PGCET prep",
+                "info on AP PGCET", "what’s the AP PGCET test", "PGCET for AP",
+                "details about AP PGCET", "how to crack AP PGCET", "AP PGCET preparation",
+                "AP PGCET information", "what’s PGCET in AP", "AP PGCET exam info",
+                "how to prep for AP PGCET", "AP PGCET details info", "what is AP PGCET for",
+                "info about AP PGCET", "what’s Andhra PGCET", "how to prepare for AP PGCET",
+                "PGCET in AP details", "PGCET exam in Andhra Pradesh", "what is the AP PGCET exam",
+                "how to study for AP PGCET exam", "AP PGCET exam details", "PGCET test in AP",
+                "what’s AP PGCET in Andhra", "details on AP PGCET", "how to ace AP PGCET",
+                "AP PGCET preparation tips", "what’s the AP PGCET exam for", "PGCET AP info",
+                "AP PGCET syllabus", "AP PGCET exam date", "how to apply for AP PGCET",
+                "AP PGCET eligibility", "AP PGCET preparation books", "AP PGCET exam pattern",
+                "how to register for AP PGCET", "AP PGCET for M.Tech",
+                "AP PGCET for M.Pharm courses", "AP PGCET preparation strategy",
+                "AP PGCET application process", "AP PGCET cutoff details",
+                "AP PGCET for postgraduate courses", "AP PGCET exam preparation guide"
+            ],
+            "responses": [
+                "AP PGCET is for postgraduate courses in Andhra—like M.Tech, M.Pharm, {name}! You need a bachelor’s degree in the relevant field. Happens in June usually. Want prep ideas? Check out [AP PGCET Official Website](https://cets.apsche.ap.gov.in/PGCET).",
+                "Hey, AP PGCET is your entry to master’s programs in AP! Tests your undergrad knowledge—pretty straightforward if you revise. Need study tips? Visit [AP PGCET Official Website](https://cets.apsche.ap.gov.in/PGCET).",
+                "AP PGCET is for PG aspirants in Andhra! M.Tech, M.Sc, etc., after your degree. Focus on your UG syllabus and practice. How can I help? Explore [AP PGCET Official Website](https://cets.apsche.ap.gov.in/PGCET)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "ts_pgcet",
+            "patterns": [
+                "tell me about TS PGCET", "what is TS PGCET", "how to prepare for TS PGCET",
+                "TS PGCET details", "PGCET in TS", "TS PGCET info", "what’s TS PGCET",
+                "how to study for TS PGCET", "PGCET in Telangana", "TS PGCET exam",
+                "what is TS PGCET exam", "how to get ready for TS PGCET", "TS PGCET prep",
+                "info on TS PGCET", "what’s the TS PGCET test", "PGCET for TS",
+                "details about TS PGCET", "how to crack TS PGCET", "TS PGCET preparation",
+                "TS PGCET information", "what’s PGCET in TS", "TS PGCET exam info",
+                "how to prep for TS PGCET", "TS PGCET details info", "what is TS PGCET for",
+                "info about TS PGCET", "what’s Telangana PGCET", "how to prepare for TS PGCET",
+                "PGCET in TS details", "PGCET exam in Telangana", "what is the TS PGCET exam",
+                "how to study for TS PGCET exam", "TS PGCET exam details", "PGCET test in TS",
+                "what’s TS PGCET in Telangana", "details on TS PGCET", "how to ace TS PGCET",
+                "TS PGCET preparation tips", "what’s the TS PGCET exam for", "PGCET TS info",
+                "TS PGCET syllabus", "TS PGCET exam date", "how to apply for TS PGCET",
+                "TS PGCET eligibility", "TS PGCET preparation books", "TS PGCET exam pattern",
+                "how to register for TS PGCET", "TS PGCET for M.Tech",
+                "TS PGCET for M.Pharm courses", "TS PGCET preparation strategy",
+                "TS PGCET application process", "TS PGCET cutoff details",
+                "TS PGCET for postgraduate courses", "TS PGCET exam preparation guide",
+                "TS PGCET for M.Sc programs", "TS PGCET registration process"
+            ],
+            "responses": [
+                "TS PGCET is for master’s courses in Telangana—M.Tech, M.Pharm, and more, {name}! You need a UG degree. Exam’s in June—focus on your undergrad stuff. Prep tips? Check out [TS PGCET Official Website](https://pgcet.tsche.ac.in).",
+                "Hey, TS PGCET gets you into PG courses in TS! Tests your bachelor’s knowledge—easy if you brush up. Want some study hacks? Visit [TS PGCET Official Website](https://pgcet.tsche.ac.in).",
+                "TS PGCET is for postgrad dreams in Telangana! M.Tech or M.Sc after your degree. Revise UG syllabus, and you’re set. How can I assist? Explore [TS PGCET Official Website](https://pgcet.tsche.ac.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "scholarships",
+            "patterns": [
+                "are there scholarships for students", "how to get a scholarship", "tell me about scholarships in india",
+                "scholarships for engineering", "scholarships for studying abroad", "any financial aid",
+                "scholarship options", "financial help for studies", "can i get a scholarship",
+                "scholarships available", "how to apply for scholarships", "scholarships in India",
+                "engineering scholarships", "study abroad scholarships", "financial support for students",
+                "what scholarships can i get", "scholarship opportunities", "how to find scholarships",
+                "any scholarships for me", "financial aid for education", "are there scholarships for me",
+                "how to get scholarships", "tell me about Indian scholarships", "scholarships for engineering students",
+                "scholarships for abroad studies", "any financial assistance", "scholarship possibilities",
+                "financial aid for studies", "can i apply for a scholarship", "scholarships i can get",
+                "how to apply for a scholarship", "scholarships in India for students",
+                "engineering scholarship options", "study abroad scholarship options",
+                "financial support for education", "what scholarships are available",
+                "scholarship opportunities for me", "how to look for scholarships",
+                "any scholarship opportunities", "financial assistance for studies",
+                "scholarships for undergrad students", "scholarships for postgraduate students",
+                "government scholarships in India", "scholarships for medical students",
+                "scholarships for MBA students", "financial aid for engineering students",
+                "how to find scholarships for studying abroad", "scholarships for Indian students",
+                "state scholarships in India", "scholarship application process"
+            ],
+            "responses": [
+                "Yes, {name}! Scholarships like NSP, Jnanabhumi in AP, or ePASS in TS can help. For engineering, try AICTE ones. Need help applying? Check out [National Scholarship Portal](https://scholarships.gov.in).",
+                "Hey, scholarships are everywhere! Check National Scholarship Portal or state schemes. Abroad? Look at Fulbright or Commonwealth. Want more info? Visit [Jnanabhumi AP](https://jnanabhumi.ap.gov.in) for AP students.",
+                "Tons of scholarships in India—PM Scholarship, state ones like AP’s Vidya Deevena. For engineering or abroad, there’s plenty. How can I guide you? Explore [ePASS TS](https://telanganaepass.cgg.gov.in) for TS students."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "study_abroad",
+            "patterns": [
+                "how can i study abroad", "tell me about studying overseas", "exams for studying abroad",
+                "study in the US", "study in Canada", "is studying abroad expensive", "study in UK",
+                "abroad education", "how to go abroad for studies", "studying overseas info",
+                "what exams for abroad studies", "study in USA", "study in Canada info",
+                "cost of studying abroad", "study in the UK", "education abroad",
+                "how to study in foreign countries", "overseas education details",
+                "exams needed for studying abroad", "study abroad options",
+                "how to study overseas", "tell me about abroad education", "tests for studying abroad",
+                "study in the United States", "study in Canada details", "is studying abroad costly",
+                "study in the United Kingdom", "international education", "how to go for abroad studies",
+                "info on studying overseas", "what tests for overseas studies", "study in the USA",
+                "study in Canada information", "cost of abroad education", "study in UK details",
+                "education in foreign countries", "how to study internationally",
+                "details on overseas education", "tests required for studying abroad",
+                "options for studying abroad", "how can i go abroad for studies",
+                "study abroad after 12th", "study abroad scholarships", "study in Australia",
+                "study in Germany", "visa process for studying abroad", "study abroad programs",
+                "how to apply for universities abroad", "study in Europe",
+                "cost of studying in the US", "IELTS for studying abroad",
+                "GRE for studying abroad", "study abroad application process",
+                "best countries for studying abroad", "study abroad for Indian students",
+                "how to get admission in foreign universities", "study abroad requirements"
+            ],
+            "responses": [
+                "Studying abroad is cool, {name}! For the US, crack TOEFL and SAT; Canada needs IELTS. Apply to unis and get a visa. Want step-by-step help? Check out [EducationUSA](https://educationusa.state.gov) for US study info.",
+                "Going overseas? You’ll need IELTS/TOEFL for English, maybe GRE for masters. Pick a country—US, UK, Canada—and I’ll guide you! Visit [IDP](https://www.idp.com/india) for study abroad guidance.",
+                "Study abroad is doable! US loves SAT/GRE, Canada wants IELTS. Can be pricey, but scholarships help. Where do you wanna go? Explore [British Council](https://www.britishcouncil.in/study-uk) for UK study details."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "skill_development",
+            "patterns": [
+                "what skills should i learn", "skills for jobs", "how to improve my skills",
+                "skills for IT", "best skills to learn", "skill courses", "learn new skills",
+                "skill training", "what skills to develop", "skills for employment",
+                "how to enhance my skills", "IT skills to learn", "top skills to learn",
+                "courses for skills", "how to build skills", "skills for my career",
+                "what to learn for jobs", "skill development courses", "improve skills for job",
+                "best skills for future", "what skills are in demand", "skills to learn for IT",
+                "how to develop my skills", "skills for better jobs", "what skills to improve",
+                "IT skills for career", "best skills for employment", "courses to learn skills",
+                "how to learn new skills", "skills for job opportunities", "how to upskill",
+                "skills for IT jobs", "top skills for future", "skill training programs",
+                "what skills for my career", "learn skills for jobs", "skill enhancement",
+                "how to improve skills for IT", "best skill development courses",
+                "skills to learn for employment", "how to build career skills",
+                "in-demand skills for jobs", "skills for tech industry",
+                "online courses for skill development", "soft skills for career",
+                "technical skills to learn", "skills for future jobs",
+                "how to upskill for IT career", "best platforms for learning skills",
+                "skill development for students", "career skills to learn"
+            ],
+            "responses": [
+                "For IT, learn Python or Java, {name}! Other hot skills are data analysis, digital marketing. Coursera’s got great courses. What’s your field? Check out [Coursera](https://www.coursera.org).",
+                "Hey, skills like coding, communication, or design are gold! For IT, try programming; for others, soft skills. Want course ideas? Visit [Udemy](https://www.udemy.com) for skill-building resources.",
+                "Upskill with coding, analytics, or even public speaking! Python’s a fave for IT. Check Udemy or LinkedIn Learning. What do you like? Explore [LinkedIn Learning](https://www.linkedin.com/learning)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "aprjc",
+            "patterns": [
+                "tell me about APRJC", "what is APRJC", "how to prepare for APRJC",
+                "APRJC details", "APRJC in Andhra Pradesh", "APRJC info", "what’s APRJC for",
+                "how to apply for APRJC", "APRJC entrance exam", "APRJC preparation",
+                "info on APRJC", "APRJC exam details", "what is APRJC test",
+                "APRJC in AP", "details about APRJC", "how to crack APRJC",
+                "APRJC preparation tips", "what’s the APRJC exam for", "APRJC AP info",
+                "APRJC syllabus", "APRJC exam date", "APRJC eligibility",
+                "how to study for APRJC", "APRJC application process",
+                "APRJC for intermediate", "APRJC admission process"
+            ],
+            "responses": [
+                "APRJC is the Andhra Pradesh Residential Junior College entrance exam, {name}! It’s for students after 10th to join intermediate in AP’s residential colleges. Focus on 10th syllabus—Maths, Science, English. Want prep tips? Check out [APRJC Official Website](https://aprs.apcfss.in).",
+                "Hey, APRJC gets you into top residential junior colleges in Andhra! It’s a state-level test after 10th. Revise your 10th subjects and practice past papers. Need help? Visit [APRJC Official Website](https://aprs.apcfss.in).",
+                "APRJC is for intermediate education in Andhra’s residential colleges! Crack the entrance exam after 10th by focusing on Maths, Science, and English. How can I assist? Explore [APRJC Official Website](https://aprs.apcfss.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "tsrjc",
+            "patterns": [
+                "tell me about TSRJC", "what is TSRJC", "how to prepare for TSRJC",
+                "TSRJC details", "TSRJC in Telangana", "TSRJC info", "what’s TSRJC for",
+                "how to apply for TSRJC", "TSRJC entrance exam", "TSRJC preparation",
+                "info on TSRJC", "TSRJC exam details", "what is TSRJC test",
+                "TSRJC in TS", "details about TSRJC", "how to crack TSRJC",
+                "TSRJC preparation tips", "what’s the TSRJC exam for", "TSRJC TS info",
+                "TSRJC syllabus", "TSRJC exam date", "TSRJC eligibility",
+                "how to study for TSRJC", "TSRJC application process",
+                "TSRJC for intermediate", "TSRJC admission process"
+            ],
+            "responses": [
+                "TSRJC is the Telangana Residential Junior College entrance exam, {name}! It’s for students after 10th to join intermediate in TS’s residential colleges. Focus on 10th syllabus—Maths, Science, English. Want prep tips? Check out [TSRJC Official Website](https://tsrjdc.cgg.gov.in).",
+                "Hey, TSRJC gets you into top residential junior colleges in Telangana! It’s a state-level test after 10th. Revise your 10th subjects and practice past papers. Need help? Visit [TSRJC Official Website](https://tsrjdc.cgg.gov.in).",
+                "TSRJC is for intermediate education in Telangana’s residential colleges! Crack the entrance exam after 10th by focusing on Maths, Science, and English. How can I assist? Explore [TSRJC Official Website](https://tsrjdc.cgg.gov.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "mjp_ap_bc_wrjc",
+            "patterns": [
+                "tell me about MJP AP BC WRJC", "what is MJP AP BC WRJC", "how to apply for MJP AP BC WRJC",
+                "MJP AP BC WRJC details", "MJP AP BC WRJC in Andhra Pradesh", "MJP AP BC WRJC info",
+                "what’s MJP AP BC WRJC for", "MJP AP BC WRJC entrance exam", "MJP AP BC WRJC preparation",
+                "info on MJP AP BC WRJC", "MJP AP BC WRJC exam details", "what is MJP AP BC WRJC test",
+                "MJP AP BC WRJC in AP", "details about MJP AP BC WRJC", "how to crack MJP AP BC WRJC",
+                "MJP AP BC WRJC preparation tips", "what’s the MJP AP BC WRJC exam for", "MJP AP BC WRJC AP info",
+                "MJP AP BC WRJC syllabus", "MJP AP BC WRJC exam date", "MJP AP BC WRJC eligibility",
+                "how to study for MJP AP BC WRJC", "MJP AP BC WRJC application process",
+                "MJP AP BC WRJC for intermediate", "MJP AP BC WRJC admission process"
+            ],
+            "responses": [
+                "MJP AP BC WRJC is for Backward Classes welfare residential junior colleges in Andhra, {name}! It’s for 10th pass students to join intermediate. Focus on 10th syllabus—Maths, Science, English. Want prep tips? Check out [AP Social Welfare](https://apswreis.ap.gov.in).",
+                "Hey, MJP AP BC WRJC offers intermediate education for BC students in Andhra! It’s a state-level entrance test after 10th. Revise your 10th subjects and practice past papers. Need help? Visit [AP Social Welfare](https://apswreis.ap.gov.in).",
+                "MJP AP BC WRJC is for BC students aiming for intermediate in Andhra’s welfare colleges! Crack the entrance exam after 10th by focusing on Maths, Science, and English. How can I assist? Explore [AP Social Welfare](https://apswreis.ap.gov.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "mjp_tg_bc_wrjc",
+            "patterns": [
+                "tell me about MJP TG BC WRJC", "what is MJP TG BC WRJC", "how to apply for MJP TG BC WRJC",
+                "MJP TG BC WRJC details", "MJP TG BC WRJC in Telangana", "MJP TG BC WRJC info",
+                "what’s MJP TG BC WRJC for", "MJP TG BC WRJC entrance exam", "MJP TG BC WRJC preparation",
+                "info on MJP TG BC WRJC", "MJP TG BC WRJC exam details", "what is MJP TG BC WRJC test",
+                "MJP TG BC WRJC in TS", "details about MJP TG BC WRJC", "how to crack MJP TG BC WRJC",
+                "MJP TG BC WRJC preparation tips", "what’s the MJP TG BC WRJC exam for", "MJP TG BC WRJC TS info",
+                "MJP TG BC WRJC syllabus", "MJP TG BC WRJC exam date", "MJP TG BC WRJC eligibility",
+                "how to study for MJP TG BC WRJC", "MJP TG BC WRJC application process",
+                "MJP TG BC WRJC for intermediate", "MJP TG BC WRJC admission process"
+            ],
+            "responses": [
+                "MJP TG BC WRJC is for Backward Classes welfare residential junior colleges in Telangana, {name}! It’s for 10th pass students to join intermediate. Focus on 10th syllabus—Maths, Science, English. Want prep tips? Check out [TS Social Welfare](https://tswreis.in).",
+                "Hey, MJP TG BC WRJC offers intermediate education for BC students in Telangana! It’s a state-level entrance test after 10th. Revise your 10th subjects and practice past papers. Need help? Visit [TS Social Welfare](https://tswreis.in).",
+                "MJP TG BC WRJC is for BC students aiming for intermediate in Telangana’s welfare colleges! Crack the entrance exam after 10th by focusing on Maths, Science, and English. How can I assist? Explore [TS Social Welfare](https://tswreis.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "apswrjc",
+            "patterns": [
+                "tell me about APSWJRJC", "what is APSWJRJC", "how to apply for APSWJRJC",
+                "APSWJRJC details", "APSWJRJC in Andhra Pradesh", "APSWJRJC info",
+                "what’s APSWJRJC for", "APSWJRJC entrance exam", "APSWJRJC preparation",
+                "info on APSWJRJC", "APSWJRJC exam details", "what is APSWJRJC test",
+                "APSWJRJC in AP", "details about APSWJRJC", "how to crack APSWJRJC",
+                "APSWJRJC preparation tips", "what’s the APSWJRJC exam for", "APSWJRJC AP info",
+                "APSWJRJC syllabus", "APSWJRJC exam date", "APSWJRJC eligibility",
+                "how to study for APSWJRJC", "APSWJRJC application process",
+                "APSWJRJC for intermediate", "APSWJRJC admission process"
+            ],
+            "responses": [
+                "APSWJRJC is for Social Welfare Residential Junior Colleges in Andhra, {name}! It’s for 10th pass students from SC communities to join intermediate. Focus on 10th syllabus—Maths, Science, English. Want prep tips? Check out [AP Social Welfare](https://apswreis.ap.gov.in).",
+                "Hey, APSWJRJC offers intermediate education for SC students in Andhra! It’s a state-level entrance test after 10th. Revise your 10th subjects and practice past papers. Need help? Visit [AP Social Welfare](https://apswreis.ap.gov.in).",
+                "APSWJRJC is for SC students aiming for intermediate in Andhra’s welfare colleges! Crack the entrance exam after 10th by focusing on Maths, Science, and English. How can I assist? Explore [AP Social Welfare](https://apswreis.ap.gov.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "tgswrjc",
+            "patterns": [
+                "tell me about TGSWRJC", "what is TGSWRJC", "how to apply for TGSWRJC",
+                "TGSWRJC details", "TGSWRJC in Telangana", "TGSWRJC info",
+                "what’s TGSWRJC for", "TGSWRJC entrance exam", "TGSWRJC preparation",
+                "info on TGSWRJC", "TGSWRJC exam details", "what is TGSWRJC test",
+                "TGSWRJC in TS", "details about TGSWRJC", "how to crack TGSWRJC",
+                "TGSWRJC preparation tips", "what’s the TGSWRJC exam for", "TGSWRJC TS info",
+                "TGSWRJC syllabus", "TGSWRJC exam date", "TGSWRJC eligibility",
+                "how to study for TGSWRJC", "TGSWRJC application process",
+                "TGSWRJC for intermediate", "TGSWRJC admission process"
+            ],
+            "responses": [
+                "TGSWRJC is for Social Welfare Residential Junior Colleges in Telangana, {name}! It’s for 10th pass students from SC communities to join intermediate. Focus on 10th syllabus—Maths, Science, English. Want prep tips? Check out [TS Social Welfare](https://tswreis.in).",
+                "Hey, TGSWRJC offers intermediate education for SC students in Telangana! It’s a state-level entrance test after 10th. Revise your 10th subjects and practice past papers. Need help? Visit [TS Social Welfare](https://tswreis.in).",
+                "TGSWRJC is for SC students aiming for intermediate in Telangana’s welfare colleges! Crack the entrance exam after 10th by focusing on Maths, Science, and English. How can I assist? Explore [TS Social Welfare](https://tswreis.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "aptwrjc",
+            "patterns": [
+                "tell me about APTWRJC", "what is APTWRJC", "how to apply for APTWRJC",
+                "APTWRJC details", "APTWRJC in Andhra Pradesh", "APTWRJC info",
+                "what’s APTWRJC for", "APTWRJC entrance exam", "APTWRJC preparation",
+                "info on APTWRJC", "APTWRJC exam details", "what is APTWRJC test",
+                "APTWRJC in AP", "details about APTWRJC", "how to crack APTWRJC",
+                "APTWRJC preparation tips", "what’s the APTWRJC exam for", "APTWRJC AP info",
+                "APTWRJC syllabus", "APTWRJC exam date", "APTWRJC eligibility",
+                "how to study for APTWRJC", "APTWRJC application process",
+                "APTWRJC for intermediate", "APTWRJC admission process"
+            ],
+            "responses": [
+                "APTWRJC is for Tribal Welfare Residential Junior Colleges in Andhra, {name}! It’s for 10th pass students from ST communities to join intermediate. Focus on 10th syllabus—Maths, Science, English. Want prep tips? Check out [AP Tribal Welfare](https://aptwgurukulam.ap.gov.in).",
+                "Hey, APTWRJC offers intermediate education for ST students in Andhra! It’s a state-level entrance test after 10th. Revise your 10th subjects and practice past papers. Need help? Visit [AP Tribal Welfare](https://aptwgurukulam.ap.gov.in).",
+                "APTWRJC is for ST students aiming for intermediate in Andhra’s tribal welfare colleges! Crack the entrance exam after 10th by focusing on Maths, Science, and English. How can I assist? Explore [AP Tribal Welfare](https://aptwgurukulam.ap.gov.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "tgtwrjc",
+            "patterns": [
+                "tell me about TGTWRJC", "what is TGTWRJC", "how to apply for TGTWRJC",
+                "TGTWRJC details", "TGTWRJC in Telangana", "TGTWRJC info",
+                "what’s TGTWRJC for", "TGTWRJC entrance exam", "TGTWRJC preparation",
+                "info on TGTWRJC", "TGTWRJC exam details", "what is TGTWRJC test",
+                "TGTWRJC in TS", "details about TGTWRJC", "how to crack TGTWRJC",
+                "TGTWRJC preparation tips", "what’s the TGTWRJC exam for", "TGTWRJC TS info",
+                "TGTWRJC syllabus", "TGTWRJC exam date", "TGTWRJC eligibility",
+                "how to study for TGTWRJC", "TGTWRJC application process",
+                "TGTWRJC for intermediate", "TGTWRJC admission process"
+            ],
+            "responses": [
+                "TGTWRJC is for Tribal Welfare Residential Junior Colleges in Telangana, {name}! It’s for 10th pass students from ST communities to join intermediate. Focus on 10th syllabus—Maths, Science, English. Want prep tips? Check out [TS Tribal Welfare](https://tstwgk.cgg.gov.in).",
+                "Hey, TGTWRJC offers intermediate education for ST students in Telangana! It’s a state-level entrance test after 10th. Revise your 10th subjects and practice past papers. Need help? Visit [TS Tribal Welfare](https://tstwgk.cgg.gov.in).",
+                "TGTWRJC is for ST students aiming for intermediate in Telangana’s tribal welfare colleges! Crack the entrance exam after 10th by focusing on Maths, Science, and English. How can I assist? Explore [TS Tribal Welfare](https://tstwgk.cgg.gov.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "polycet_polytechnic",
+            "patterns": [
+                "tell me about POLYCET", "what is POLYCET", "how to prepare for POLYCET",
+                "POLYCET details", "POLYCET for polytechnic", "POLYCET info",
+                "what’s POLYCET for", "how to apply for POLYCET", "POLYCET entrance exam",
+                "POLYCET preparation", "info on POLYCET", "POLYCET exam details",
+                "what is POLYCET test", "POLYCET in AP and TS", "details about POLYCET",
+                "how to crack POLYCET", "POLYCET preparation tips", "what’s the POLYCET exam for",
+                "POLYCET syllabus", "POLYCET exam date", "POLYCET eligibility",
+                "how to study for POLYCET", "POLYCET application process",
+                "POLYCET for diploma courses", "POLYCET admission process",
+                "polytechnic courses after POLYCET", "POLYCET for engineering diploma"
+            ],
+            "responses": [
+                "POLYCET is for polytechnic diploma courses after 10th in AP and TS, {name}! It covers engineering, pharmacy, and agriculture diplomas. Focus on 10th Maths, Physics, Chemistry. Want prep tips? Check out [AP POLYCET](https://polycetap.nic.in) or [TS POLYCET](https://polycetts.nic.in).",
+                "Hey, POLYCET is a state-level test for 3-year diploma courses after 10th in AP and TS! Think Mechanical or Civil Engineering. Revise your 10th syllabus and practice past papers. Need help? Visit [AP POLYCET](https://polycetap.nic.in) or [TS POLYCET](https://polycetts.nic.in).",
+                "POLYCET gets you into polytechnic colleges in AP and TS! Crack the entrance exam after 10th by focusing on Maths, Science, and basics. How can I assist? Explore [AP POLYCET](https://polycetap.nic.in) or [TS POLYCET](https://polycetts.nic.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "balayogi_gurukula",
+            "patterns": [
+                "tell me about Balayogi Gurukula", "what is Balayogi Gurukula", "how to apply for Balayogi Gurukula",
+                "Balayogi Gurukula details", "Balayogi Gurukula in AP", "Balayogi Gurukula info",
+                "what’s Balayogi Gurukula for", "Balayogi Gurukula entrance exam", "Balayogi Gurukula preparation",
+                "info on Balayogi Gurukula", "Balayogi Gurukula exam details", "what is Balayogi Gurukula test",
+                "Balayogi Gurukula in Andhra Pradesh", "details about Balayogi Gurukula",
+                "how to crack Balayogi Gurukula", "Balayogi Gurukula preparation tips",
+                "what’s the Balayogi Gurukula exam for", "Balayogi Gurukula AP info",
+                "Balayogi Gurukula syllabus", "Balayogi Gurukula exam date", "Balayogi Gurukula eligibility",
+                "how to study for Balayogi Gurukula", "Balayogi Gurukula application process",
+                "Balayogi Gurukula for education", "Balayogi Gurukula admission process"
+            ],
+            "responses": [
+                "Balayogi Gurukula, officially Dr. B.R. Ambedkar Gurukulam, is for residential education in Andhra, {name}! It’s for students from 5th to 12th, focusing on SC/ST/BC communities. Entrance tests vary by class. Want details? Check out [AP Social Welfare](https://apswreis.ap.gov.in).",
+                "Hey, Balayogi Gurukula provides quality education for underprivileged students in AP! It’s a residential school system for 5th to 12th. Prepare based on your class syllabus. Need help? Visit [AP Social Welfare](https://apswreis.ap.gov.in).",
+                "Balayogi Gurukula is for SC/ST/BC students in Andhra, offering education from 5th to 12th! Crack the entrance test by revising your current class syllabus. How can I assist? Explore [AP Social Welfare](https://apswreis.ap.gov.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "cuet_ug",
+            "patterns": [
+                "tell me about CUET UG", "what is CUET UG", "how to prepare for CUET UG",
+                "CUET UG details", "CUET UG info", "what’s CUET UG for",
+                "how to apply for CUET UG", "CUET UG entrance exam", "CUET UG preparation",
+                "info on CUET UG", "CUET UG exam details", "what is CUET UG test",
+                "details about CUET UG", "how to crack CUET UG", "CUET UG preparation tips",
+                "what’s the CUET UG exam for", "CUET UG syllabus", "CUET UG exam date",
+                "CUET UG eligibility", "how to study for CUET UG", "CUET UG application process",
+                "CUET UG for undergraduate", "CUET UG admission process",
+                "CUET UG for central universities", "CUET UG exam pattern"
+            ],
+            "responses": [
+                "CUET UG is the Common University Entrance Test for undergraduate admissions in India, {name}! It’s for central, state, and other universities after 12th. Focus on 12th syllabus and general aptitude. Want prep tips? Check out [CUET Official Website](https://cuet.samarth.ac.in).",
+                "Hey, CUET UG gets you into UG programs in top universities across India! It tests your 12th knowledge and aptitude. Revise your subjects and practice MCQs. Need help? Visit [CUET Official Website](https://cuet.samarth.ac.in).",
+                "CUET UG is for UG admissions in central universities after 12th! Focus on your 12th syllabus, language skills, and general knowledge. How can I assist? Explore [CUET Official Website](https://cuet.samarth.ac.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "cuet_pg",
+            "patterns": [
+                "tell me about CUET PG", "what is CUET PG", "how to prepare for CUET PG",
+                "CUET PG details", "CUET PG info", "what’s CUET PG for",
+                "how to apply for CUET PG", "CUET PG entrance exam", "CUET PG preparation",
+                "info on CUET PG", "CUET PG exam details", "what is CUET PG test",
+                "details about CUET PG", "how to crack CUET PG", "CUET PG preparation tips",
+                "what’s the CUET PG exam for", "CUET PG syllabus", "CUET PG exam date",
+                "CUET PG eligibility", "how to study for CUET PG", "CUET PG application process",
+                "CUET PG for postgraduate", "CUET PG admission process",
+                "CUET PG for central universities", "CUET PG exam pattern"
+            ],
+            "responses": [
+                "CUET PG is the Common University Entrance Test for postgraduate admissions in India, {name}! It’s for central, state, and other universities after UG. Focus on your UG syllabus and general aptitude. Want prep tips? Check out [CUET Official Website](https://cuet.nta.nic.in).",
+                "Hey, CUET PG gets you into PG programs in top universities across India! It tests your UG knowledge and aptitude. Revise your subjects and practice MCQs. Need help? Visit [CUET Official Website](https://cuet.nta.nic.in).",
+                "CUET PG is for PG admissions in central universities after your UG degree! Focus on your UG syllabus, analytical skills, and general knowledge. How can I assist? Explore [CUET Official Website](https://cuet.nta.nic.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "neet",
+            "patterns": [
+                "tell me about NEET", "what is NEET", "how to prepare for NEET",
+                "NEET details", "NEET info", "what’s NEET for",
+                "how to apply for NEET", "NEET entrance exam", "NEET preparation",
+                "info on NEET", "NEET exam details", "what is NEET test",
+                "details about NEET", "how to crack NEET", "NEET preparation tips",
+                "what’s the NEET exam for", "NEET syllabus", "NEET exam date",
+                "NEET eligibility", "how to study for NEET", "NEET application process",
+                "NEET for medical", "NEET admission process",
+                "NEET for MBBS", "NEET exam pattern"
+            ],
+            "responses": [
+                "NEET is the National Eligibility cum Entrance Test for medical courses in India, {name}! It’s for MBBS, BDS, and other medical UG programs after 12th. Focus on Physics, Chemistry, Biology from 11th and 12th. Want prep tips? Check out [NEET Official Website](https://neet.nta.nic.in).",
+                "Hey, NEET gets you into medical colleges across India! It’s a national-level test after 12th. Revise your 11th and 12th Biology, Physics, Chemistry, and practice MCQs. Need help? Visit [NEET Official Website](https://neet.nta.nic.in).",
+                "NEET is for MBBS and BDS admissions in India! Focus on your 11th and 12th syllabus, especially Biology, and solve past papers. How can I assist? Explore [NEET Official Website](https://neet.nta.nic.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "jee_mains",
+            "patterns": [
+                "tell me about JEE Mains", "what is JEE Mains", "how to prepare for JEE Mains",
+                "JEE Mains details", "JEE Mains info", "what’s JEE Mains for",
+                "how to apply for JEE Mains", "JEE Mains entrance exam", "JEE Mains preparation",
+                "info on JEE Mains", "JEE Mains exam details", "what is JEE Mains test",
+                "details about JEE Mains", "how to crack JEE Mains", "JEE Mains preparation tips",
+                "what’s the JEE Mains exam for", "JEE Mains syllabus", "JEE Mains exam date",
+                "JEE Mains eligibility", "how to study for JEE Mains", "JEE Mains application process",
+                "JEE Mains for engineering", "JEE Mains admission process",
+                "JEE Mains for B.Tech", "JEE Mains exam pattern"
+            ],
+            "responses": [
+                "JEE Mains is the Joint Entrance Examination for engineering in India, {name}! It’s for B.Tech and B.Arch admissions in NITs, IIITs, and other colleges after 12th. Focus on Physics, Chemistry, Maths from 11th and 12th. Want prep tips? Check out [JEE Mains Official Website](https://jeemain.nta.nic.in).",
+                "Hey, JEE Mains gets you into top engineering colleges in India! It’s a national-level test after 12th. Revise your 11th and 12th Maths, Physics, Chemistry, and practice MCQs. Need help? Visit [JEE Mains Official Website](https://jeemain.nta.nic.in).",
+                "JEE Mains is for B.Tech admissions in India! Focus on your 11th and 12th syllabus, especially Maths, and solve past papers. How can I assist? Explore [JEE Mains Official Website](https://jeemain.nta.nic.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "clat",
+            "patterns": [
+                "tell me about CLAT", "what is CLAT", "how to prepare for CLAT",
+                "CLAT details", "CLAT info", "what’s CLAT for",
+                "how to apply for CLAT", "CLAT entrance exam", "CLAT preparation",
+                "info on CLAT", "CLAT exam details", "what is CLAT test",
+                "details about CLAT", "how to crack CLAT", "CLAT preparation tips",
+                "what’s the CLAT exam for", "CLAT syllabus", "CLAT exam date",
+                "CLAT eligibility", "how to study for CLAT", "CLAT application process",
+                "CLAT for law", "CLAT admission process",
+                "CLAT for LLB", "CLAT exam pattern"
+            ],
+            "responses": [
+                "CLAT is the Common Law Admission Test for law schools in India, {name}! It’s for UG and PG law programs in NLUs after 12th or UG. Focus on English, GK, Legal Reasoning, and Logical Reasoning. Want prep tips? Check out [CLAT Official Website](https://consortiumofnlus.ac.in).",
+                "Hey, CLAT gets you into top law schools in India! It’s a national-level test after 12th for LLB or after UG for LLM. Revise English, GK, and practice reasoning questions. Need help? Visit [CLAT Official Website](https://consortiumofnlus.ac.in).",
+                "CLAT is for LLB and LLM admissions in India’s NLUs! Focus on English, Legal Reasoning, and GK, and solve past papers. How can I assist? Explore [CLAT Official Website](https://consortiumofnlus.ac.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "jobs",
+            "patterns": [
+                "what jobs can i get", "job opportunities for me", "how to find a job",
+                "jobs after my degree", "job options for my field", "what jobs are available",
+                "job search tips", "jobs for freshers", "how to apply for jobs",
+                "job opportunities after graduation", "jobs in my field",
+                "where to find jobs", "job openings for me", "how to get a job",
+                "jobs after engineering", "jobs after MBA", "jobs after medical",
+                "job search for students", "fresher jobs in India",
+                "how to find jobs after studies", "job opportunities for undergrads",
+                "jobs for postgraduates", "job search platforms",
+                "how to apply for jobs online", "jobs in IT sector"
+            ],
+            "responses": [
+                "Lots of job opportunities for you, {name}! With your background in {major}, you can look into {job_field}. Want job search tips? Check out [Naukri](https://www.naukri.com) for listings.",
+                "Hey, jobs in {job_field} are perfect for your {major}! Try searching on job portals or networking on LinkedIn. Need help? Visit [LinkedIn](https://www.linkedin.com) for opportunities.",
+                "Job hunting? With your {major}, you can explore {job_field}. Use job portals and build a strong resume. How can I assist? Explore [Naukri](https://www.naukri.com) for fresher jobs."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "careers",
+            "patterns": [
+                "what careers can i pursue", "career paths for me", "how to choose a career",
+                "careers after my degree", "career options for my field", "what careers are available",
+                "career guidance", "careers for freshers", "how to start a career",
+                "career opportunities after graduation", "careers in my field",
+                "where to find career advice", "career paths after 12th",
+                "how to plan my career", "careers after engineering",
+                "careers after MBA", "careers after medical",
+                "career advice for students", "career paths for undergrads",
+                "how to find a career after studies", "career opportunities for postgraduates",
+                "career planning tips", "careers in IT sector",
+                "how to choose a career path", "career guidance for students"
+            ],
+            "responses": [
+                "Lots of career paths for you, {name}! With your background in {major}, you can explore {career_path}. Want career planning tips? Check out [National Career Service](https://www.ncs.gov.in).",
+                "Hey, careers in {career_path} suit your {major}! Think about your interests and skills to choose the right path. Need guidance? Visit [National Career Service](https://www.ncs.gov.in).",
+                "Career planning? With your {major}, you can try {career_path}. Reflect on your goals and strengths. How can I assist? Explore [National Career Service](https://www.ncs.gov.in) for advice."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "motivation_guidance",
+            "patterns": [
+                "i’m confused about my career", "i don’t know what to do next",
+                "i’m feeling lost in my studies", "how to stay motivated",
+                "i need career advice", "i’m unsure about my future",
+                "how to decide my career path", "i’m stressed about exams",
+                "i need motivation for studies", "i’m confused about my studies",
+                "what should i do next", "i’m feeling demotivated",
+                "how to plan my future", "i need guidance for my career",
+                "i’m stressed about my future", "how to stay focused in studies",
+                "i need help with career planning", "i’m unsure about my career",
+                "how to overcome stress in studies", "i need motivation for exams"
+            ],
+            "responses": [
+                "It’s okay to feel confused, {name}! Let’s break it down—tell me about your interests and goals, and we’ll plan your next steps together. Want some motivation tips? Check out [MindTools](https://www.mindtools.com) for career planning resources.",
+                "Hey, feeling lost is normal! Let’s explore your strengths and interests to find a path that excites you. Need a boost? Visit [MindTools](https://www.mindtools.com) for motivation strategies.",
+                "Don’t worry, {name}! We’ll figure out your next steps together. Share your concerns, and I’ll help you stay motivated and focused. Explore [MindTools](https://www.mindtools.com) for stress management tips."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "resume_building",
+            "patterns": [
+                "how to build a resume", "tips for resume writing",
+                "how to make a good resume", "resume tips for freshers",
+                "what to include in a resume", "how to create a CV",
+                "resume building for students", "how to write a resume for jobs",
+                "resume tips for internships", "how to improve my resume",
+                "what skills to add in resume", "resume for freshers",
+                "how to make a resume for first job", "resume writing tips",
+                "how to create a professional resume", "resume building for undergrads",
+                "how to write a CV for internships", "resume tips for job applications",
+                "what to put in a resume", "how to make my resume stand out"
+            ],
+            "responses": [
+                "Building a resume is easy, {name}! Include your education, skills, and any internships or projects. Highlight relevant skills like data analysis or communication. Want more tips? Check out [Canva Resume Builder](https://www.canva.com/create/resumes).",
+                "Hey, a good resume starts with your education and skills! Add internships, projects, and certifications to stand out. Need help? Visit [Canva Resume Builder](https://www.canva.com/create/resumes) for templates.",
+                "Let’s make your resume shine, {name}! Focus on your strengths—education, skills, and experiences. Keep it concise and tailored. How can I assist? Explore [Canva Resume Builder](https://www.canva.com/create/resumes) for ideas."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "interview_preparation",
+            "patterns": [
+                "how to prepare for an interview", "interview tips for freshers",
+                "how to crack a job interview", "interview preparation for students",
+                "what to say in an interview", "how to answer interview questions",
+                "interview tips for jobs", "how to prepare for a job interview",
+                "interview preparation for internships", "how to impress in an interview",
+                "common interview questions", "interview tips for undergrads",
+                "how to prepare for internship interviews", "interview skills for freshers",
+                "how to handle interview questions", "interview preparation for jobs",
+                "how to get ready for an interview", "interview tips for first job",
+                "what to expect in an interview", "how to succeed in an interview"
+            ],
+            "responses": [
+                "Preparing for an interview is key, {name}! Research the company, practice common questions like ‘Tell me about yourself,’ and dress professionally. Want more tips? Check out [Indeed Interview Tips](https://www.indeed.com/career-advice/interviewing).",
+                "Hey, for interviews, be confident and prepared! Know the job role, practice your answers, and ask questions about the company. Need help? Visit [Indeed Interview Tips](https://www.indeed.com/career-advice/interviewing).",
+                "Let’s get you ready for your interview, {name}! Focus on your strengths, prepare for common questions, and stay calm. How can I assist? Explore [Indeed Interview Tips](https://www.indeed.com/career-advice/interviewing) for more."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "government_exams",
+            "patterns": [
+                "what are government exams", "government jobs after graduation",
+                "how to prepare for government exams", "government exams for students",
+                "government jobs for undergrads", "government exams after 12th",
+                "how to apply for government jobs", "government exams for engineering",
+                "government jobs for postgraduates", "government exams in India",
+                "how to crack government exams", "government job preparation",
+                "government exams for jobs", "government jobs after degree",
+                "government exams for freshers", "government job opportunities",
+                "how to prepare for government jobs", "government exams after engineering",
+                "government jobs for MBBS", "government exam preparation tips"
+            ],
+            "responses": [
+                "Government exams open doors to secure jobs, {name}! Exams like UPSC, SSC, or state PSCs are great after graduation. For engineering, try GATE. Want prep tips? Check out [SSC Official Website](https://ssc.nic.in).",
+                "Hey, government jobs are a solid choice! After {major}, you can try exams like UPSC, SSC, or banking exams. Focus on general knowledge and aptitude. Need help? Visit [UPSC Official Website](https://www.upsc.gov.in).",
+                "Looking for government jobs? Exams like UPSC, SSC, or state services are popular. Revise your basics and practice mock tests. How can I assist? Explore [SSC Official Website](https://ssc.nic.in) for more."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "freelancing",
+            "patterns": [
+                "how to start freelancing", "freelancing for students",
+                "what is freelancing", "freelancing jobs for freshers",
+                "how to find freelancing work", "freelancing opportunities",
+                "freelancing in IT", "how to become a freelancer",
+                "freelancing platforms", "freelancing for undergrads",
+                "how to earn money through freelancing", "freelancing jobs online",
+                "freelancing for beginners", "how to start freelancing in India",
+                "freelancing opportunities for students", "freelancing in tech",
+                "how to get freelancing projects", "freelancing for postgraduates",
+                "freelancing platforms for beginners", "how to freelance as a student"
+            ],
+            "responses": [
+                "Freelancing is a great way to earn, {name}! Start with platforms like Upwork or Fiverr. For IT, offer coding or design services. Want tips? Check out [Upwork](https://www.upwork.com).",
+                "Hey, freelancing lets you work flexibly! Create a profile on Fiverr or Freelancer and offer skills like writing or coding. Need help? Visit [Fiverr](https://www.fiverr.com).",
+                "Interested in freelancing, {name}? Use your {major} skills—like coding or design—on platforms like Upwork. Build a portfolio to start. How can I assist? Explore [Freelancer](https://www.freelancer.com)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "online_learning",
+            "patterns": [
+                "what are online learning platforms", "how to study online",
+                "best online courses for students", "online learning for skills",
+                "online education platforms", "how to learn online",
+                "online courses for career", "best platforms for online learning",
+                "online learning for students", "online courses for jobs",
+                "how to find online courses", "online education for freshers",
+                "online learning for IT skills", "best online learning websites",
+                "online courses for skill development", "how to study online effectively",
+                "online learning for undergrads", "online courses for postgraduates",
+                "online education for career growth", "best online platforms for learning"
+            ],
+            "responses": [
+                "Online learning is a game-changer, {name}! Platforms like Coursera and edX offer courses on everything from coding to business. Want to explore? Check out [Coursera](https://www.coursera.org).",
+                "Hey, you can learn so much online! Try Udemy for affordable courses or Khan Academy for free resources. What do you want to learn? Visit [Udemy](https://www.udemy.com).",
+                "Online courses can boost your skills, {name}! Coursera, Udemy, and edX are great for career-focused learning. How can I help? Explore [edX](https://www.edx.org) for more options."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "time_management",
+            "patterns": [
+                "how to manage my time", "time management for students",
+                "how to study efficiently", "time management tips",
+                "how to balance studies and work", "time management for exams",
+                "how to plan my study schedule", "time management for career",
+                "how to be productive", "time management for undergrads",
+                "how to manage time for studies", "time management for job prep",
+                "how to create a study timetable", "time management for postgraduates",
+                "how to stay productive during exams", "time management strategies",
+                "how to balance studies and hobbies", "time management for skill learning",
+                "how to plan my day for studies", "time management for busy students"
+            ],
+            "responses": [
+                "Time management is key, {name}! Create a study schedule, prioritize tasks, and use tools like Google Calendar. Want more tips? Check out [MindTools Time Management](https://www.mindtools.com/pages/main/newMN_HTE.htm).",
+                "Hey, managing time well can boost your productivity! Break your day into study blocks and take short breaks. Need help? Visit [MindTools Time Management](https://www.mindtools.com/pages/main/newMN_HTE.htm).",
+                "Let’s get organized, {name}! Plan your day with a timetable, focus on high-priority tasks, and avoid distractions. How can I assist? Explore [MindTools Time Management](https://www.mindtools.com/pages/main/newMN_HTE.htm)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "mental_health",
+            "patterns": [
+                "how to deal with stress", "mental health for students",
+                "how to manage exam stress", "mental health tips",
+                "how to stay calm during exams", "mental health for career",
+                "how to cope with study pressure", "mental health for undergrads",
+                "how to handle stress in studies", "mental health for job seekers",
+                "how to stay positive during exams", "mental health strategies",
+                "how to manage anxiety in studies", "mental health for postgraduates",
+                "how to deal with pressure in career", "mental health support for students",
+                "how to stay motivated under stress", "mental health for exam prep",
+                "how to cope with academic stress", "mental health for young professionals"
+            ],
+            "responses": [
+                "Managing stress is important, {name}! Take breaks, practice deep breathing, and talk to someone if you’re feeling overwhelmed. Want more tips? Check out [Mental Health Foundation](https://www.mentalhealth.org.uk).",
+                "Hey, it’s okay to feel stressed sometimes! Try mindfulness, exercise, or journaling to stay calm. Need support? Visit [Mental Health Foundation](https://www.mentalhealth.org.uk).",
+                "Let’s take care of your mental health, {name}! Balance study with relaxation, and don’t hesitate to seek help if needed. How can I assist? Explore [Mental Health Foundation](https://www.mentalhealth.org.uk)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "entrepreneurship",
+            "patterns": [
+                "how to start a business", "entrepreneurship for students",
+                "what is entrepreneurship", "how to become an entrepreneur",
+                "business ideas for students", "entrepreneurship opportunities",
+                "how to start a startup", "entrepreneurship for freshers",
+                "business ideas for undergrads", "how to be an entrepreneur",
+                "entrepreneurship for postgraduates", "how to start a business in India",
+                "entrepreneurship for young professionals", "business ideas for freshers",
+                "how to launch a startup", "entrepreneurship tips for students",
+                "how to start a small business", "entrepreneurship for career",
+                "business ideas for young entrepreneurs", "how to become a young entrepreneur"
+            ],
+            "responses": [
+                "Entrepreneurship is exciting, {name}! Start with a simple business idea, create a plan, and learn basics like marketing. Want more tips? Check out [Startup India](https://www.startupindia.gov.in).",
+                "Hey, starting a business can be fun! Think of a small idea—like selling handmade crafts—and research your market. Need help? Visit [Startup India](https://www.startupindia.gov.in).",
+                "Interested in entrepreneurship, {name}? Identify a problem, come up with a solution, and start small. How can I assist? Explore [Startup India](https://www.startupindia.gov.in) for resources."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "networking",
+            "patterns": [
+                "how to network for jobs", "networking for students",
+                "what is networking", "how to build a professional network",
+                "networking for career", "how to network for internships",
+                "networking tips for freshers", "how to network online",
+                "networking for undergrads", "how to network for job opportunities",
+                "networking for postgraduates", "how to build connections for career",
+                "networking for young professionals", "how to network on LinkedIn",
+                "networking tips for students", "how to network for career growth",
+                "how to build a network for jobs", "networking for freshers in India",
+                "how to network for startup opportunities", "networking for professional growth"
+            ],
+            "responses": [
+                "Networking can open doors, {name}! Join LinkedIn, attend career fairs, and connect with professionals in your field. Want more tips? Check out [LinkedIn Networking](https://www.linkedin.com/help/linkedin/answer/45).",
+                "Hey, building a network is key for your career! Start with LinkedIn, reach out to alumni, and attend events. Need help? Visit [LinkedIn Networking](https://www.linkedin.com/help/linkedin/answer/45).",
+                "Let’s grow your network, {name}! Connect with people on LinkedIn, join industry groups, and be genuine in your interactions. How can I assist? Explore [LinkedIn Networking](https://www.linkedin.com/help/linkedin/answer/45)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "higher_education_loans",
+            "patterns": [
+                "how to get an education loan", "education loans for students",
+                "what are education loans", "education loans in India",
+                "how to apply for an education loan", "education loans for studying abroad",
+                "education loans for undergrads", "education loans for postgraduates",
+                "how to finance my studies", "education loans for higher studies",
+                "education loans for engineering", "education loans for MBA",
+                "how to get a loan for studying abroad", "education loans for medical students",
+                "education loan application process", "education loans for Indian students",
+                "how to finance higher education", "education loans for career",
+                "education loan eligibility", "education loan interest rates"
+            ],
+            "responses": [
+                "Education loans can help fund your studies, {name}! Banks like SBI and HDFC offer loans for UG, PG, and abroad studies. Want more info? Check out [SBI Education Loans](https://sbi.co.in/web/personal-banking/loans/education-loans).",
+                "Hey, an education loan can support your dreams! Look into schemes like Vidya Lakshmi for Indian students. Need help? Visit [Vidya Lakshmi Portal](https://www.vidyalakshmi.co.in).",
+                "Financing your education is easier with loans, {name}! Check eligibility with banks like SBI or use portals like Vidya Lakshmi. How can I assist? Explore [Vidya Lakshmi Portal](https://www.vidyalakshmi.co.in)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "career_switch",
+            "patterns": [
+                "how to switch careers", "career change for professionals",
+                "how to change my career path", "career switch after graduation",
+                "career change for postgraduates", "how to transition to a new career",
+                "career switch for young professionals", "how to change careers in India",
+                "career change after engineering", "career switch after MBA",
+                "how to switch to a new field", "career transition tips",
+                "career change for freshers", "how to switch careers after 12th",
+                "career switch to IT", "career change to management",
+                "how to transition to a new industry", "career switch for undergrads",
+                "career change after medical", "how to start a new career path"
+            ],
+            "responses": [
+                "Switching careers is possible, {name}! Identify your transferable skills, upskill in the new field, and network. Want more tips? Check out [CareerFoundry Career Change](https://careerfoundry.com/en/career-change).",
+                "Hey, a career switch can be exciting! Learn new skills, update your resume, and connect with professionals in the new field. Need help? Visit [CareerFoundry Career Change](https://careerfoundry.com/en/career-change).",
+                "Let’s plan your career switch, {name}! Assess your skills, explore new industries, and take relevant courses. How can I assist? Explore [CareerFoundry Career Change](https://careerfoundry.com/en/career-change)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "certifications",
+            "patterns": [
+                "what certifications should i get", "certifications for jobs",
+                "best certifications for career", "certifications for IT",
+                "how to get certified for jobs", "certifications for students",
+                "certifications for freshers", "best certifications for undergrads",
+                "certifications for postgraduates", "certifications for career growth",
+                "how to find certifications", "certifications for engineering",
+                "certifications for MBA", "certifications for skill development",
+                "best certifications for IT jobs", "certifications for job opportunities",
+                "how to get certifications online", "certifications for professional growth",
+                "certifications for tech industry", "certifications for better jobs"
+            ],
+            "responses": [
+                "Certifications can boost your career, {name}! For IT, try AWS or Cisco; for business, Google Analytics. Want more ideas? Check out [Google Career Certificates](https://grow.google/certificates).",
+                "Hey, certifications like AWS for IT or PMP for management can help you stand out! Pick one based on your field. Need help? Visit [Google Career Certificates](https://grow.google/certificates).",
+                "Adding certifications is a smart move, {name}! For {major}, consider options like AWS or Google Analytics. How can I assist? Explore [Google Career Certificates](https://grow.google/certificates)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "language_learning",
+            "patterns": [
+                "how to learn a new language", "language learning for students",
+                "best apps for language learning", "how to learn English",
+                "language learning for career", "how to learn a foreign language",
+                "language learning for undergrads", "how to improve my English",
+                "language learning for postgraduates", "how to learn a language for jobs",
+                "best language learning platforms", "language learning for studying abroad",
+                "how to learn French", "how to learn German",
+                "language learning for professional growth", "how to learn a language online",
+                "language learning for freshers", "how to improve language skills",
+                "language learning for better jobs", "how to learn a language for travel"
+            ],
+            "responses": [
+                "Learning a new language is awesome, {name}! Apps like Duolingo or Babbel can help with English, French, or German. Want more tips? Check out [Duolingo](https://www.duolingo.com).",
+                "Hey, a new language can boost your career! Use Duolingo for daily practice or Rosetta Stone for deeper learning. Need help? Visit [Babbel](https://www.babbel.com).",
+                "Let’s get you started on a new language, {name}! Try Duolingo for fun lessons or Babbel for structured courses. How can I assist? Explore [Duolingo](https://www.duolingo.com)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "volunteering",
+            "patterns": [
+                "how to start volunteering", "volunteering for students",
+                "what is volunteering", "volunteering opportunities",
+                "how to find volunteering work", "volunteering for career",
+                "volunteering for undergrads", "volunteering for postgraduates",
+                "how to volunteer for experience", "volunteering for freshers",
+                "volunteering opportunities in India", "how to volunteer for NGOs",
+                "volunteering for skill development", "volunteering for job experience",
+                "how to find volunteering opportunities", "volunteering for young professionals",
+                "volunteering for resume building", "volunteering for community service",
+                "how to volunteer for social causes", "volunteering for personal growth"
+            ],
+            "responses": [
+                "Volunteering is a great way to gain experience, {name}! Look for opportunities with NGOs or platforms like VolunteerMatch. Want more ideas? Check out [VolunteerMatch](https://www.volunteermatch.org).",
+                "Hey, volunteering can build skills and look great on your resume! Try local NGOs or online platforms like United Nations Volunteers. Need help? Visit [United Nations Volunteers](https://www.unv.org).",
+                "Interested in volunteering, {name}? It’s a fantastic way to give back and grow. Check out VolunteerMatch or local community programs. How can I assist? Explore [VolunteerMatch](https://www.volunteermatch.org)."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "collegians_springboard",
+            "patterns": [
+                "tell me about Collegians Springboard", "what is Collegians Springboard",
+                "how to join Collegians Springboard", "Collegians Springboard details",
+                "Collegians Springboard for IT skills", "Collegians Springboard info",
+                "what’s Collegians Springboard for", "Collegians Springboard community",
+                "Collegians Springboard preparation", "info on Collegians Springboard",
+                "Collegians Springboard for students", "Collegians Springboard career prep",
+                "how to learn IT skills with Collegians Springboard", "Collegians Springboard resources",
+                "Collegians Springboard for job preparation", "Collegians Springboard learning paths",
+                "Collegians Springboard for undergrads", "Collegians Springboard for postgraduates",
+                "Collegians Springboard for IT career", "how to get started with Collegians Springboard",
+                "Collegians Springboard community forum", "Collegians Springboard mentorship",
+                "Collegians Springboard for programming skills", "Collegians Springboard for cloud skills",
+                "Collegians Springboard for cybersecurity", "Collegians Springboard career resources"
+            ],
+            "responses": [
+                "Collegians Springboard is a student-led platform to help you build IT skills and land your dream job, {name}! It offers curated resources, structured learning paths, and a supportive community for skills like programming, cloud platforms, and cybersecurity. Want to join? Check out their [WhatsApp Community](https://chat.whatsapp.com) or [Google Form](https://forms.google.com).",
+                "Hey, Collegians Springboard is perfect for IT career prep! It’s a community where students learn from peers, access tutorials on trending skills, and get career advice like resume building and interview tips. Ready to start? Join via their [WhatsApp Community](https://chat.whatsapp.com) or [Google Form](https://forms.google.com).",
+                "Collegians Springboard helps students like you, {name}, bridge the gap between academics and industry needs in IT! With resources, mentorship, and a collaborative forum, you’ll master skills employers want. How can I assist? Join their [WhatsApp Community](https://chat.whatsapp.com) or fill out the [Google Form](https://forms.google.com)."
+            ],
+            "context": [""]
+        }
+    ]
+}
